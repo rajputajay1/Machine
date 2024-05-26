@@ -51,7 +51,7 @@ const SliderImage = () => {
     return (
         <>
 
-            <div className="h-[500px] bg-cover bg-center flex items-center justify-center flex-col gap-5 transition-all duration-500 ease-in-out transform mt-9" style={{ backgroundImage: `url(${slides[index].image})` }}>
+            <div className="h-[500px] bg-cover  flex items-center justify-center flex-col gap-5  pt-8" style={{ backgroundImage: `url(${slides[index].image})` }}>
                 <div className={`bg-[#66544a] lg:px-10 max-lg:px-3 items-center justify-center lg:py-2 rounded-md transition-opacity duration-500 ease-in-out ${isAnimating ? 'opacity-0' : 'opacity-100'}`}>
                     <h1 className="text-3xl font-normal pb-1 text-white  max-lg:text-[18px]">{slides[index].title}</h1>
                 </div>
