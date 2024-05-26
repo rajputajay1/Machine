@@ -3,7 +3,7 @@ import React from 'react'
 const Adhinath = () => {
     return (
         <>
-            <p className='text-[#333333] text-2xl font-semibold text-center mt-12'>Adhinath s' Blog</p>
+            <p className='text-[#333333] text-2xl font-semibold text-center mt-12'>Universe Mach Works s' Blog</p>
             <div className='pt-10 text-[20px] font-bold text-[#333333] text-center lg:w-[46%] lg:mx-auto px-10 max-md:px-5 '>
                 <p className='text-center'>Explore pharmaceutical machinery resource here, Every article give insight about pharmaceutical production techniques and trends.</p>
 
@@ -18,14 +18,14 @@ const Adhinath = () => {
                 <div class="p-4 pt-2">
                     <div class="mb-8">
                         <p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]">
-                            Upscale Your Business with Adinath International</p>
+                            Upscale Your Business with Universe Mach Works International</p>
                         <p class="text-sm text-gray-600 flex items-center">
 
                             April 22nd, 2024
                         </p>
                         <hr className=' mt-3' />
 
-                        <p class="text-gray-700 text-lg pt-3 max-md:text-[16px]">Professionals from a range of life sciences disciplines make up the think tank Adinath International, which is dedicated to reimagining a better, fairer, and more equal society. By bringing investors' ideas to life.</p>
+                        <p class="text-gray-700 text-lg pt-3 max-md:text-[16px]">Professionals from a range of life sciences disciplines make up the think tank Universe Mach Works International, which is dedicated to reimagining a better, fairer, and more equal society. By bringing investors' ideas to life.</p>
                     </div>
 
                 </div>

@@ -27,7 +27,7 @@ const Header = () => {
 
     }
     const contectClick = () => {
-        navigate("/contect")
+        navigate("/contact")
         setSelectedItem(4);
 
     }
@@ -92,17 +92,17 @@ const Header = () => {
 
                             <li className={`cursor-pointer ${selectedItem === 1 ? 'text-blue-600' : ''
                                 } hover:text-blue-600`} onClick={aboutClick}>ABOUT</li>
-                            <div className=''>
+                            <div className='reltive'>
 
                                 <li className={`cursor-pointer ${selectedItem === 2 ? 'text-blue-600' : ''
                                     } hover:text-blue-600`} onClick={handleProducts}>PRODUCTS</li>
 
                                 {productsDropdownOpen && (
-                                    <div className='absolute mt-1 right-[12%] transform -translate-x-1/2 bg-white shadow-md w-60 text-center' onClick={handleProducts}>
+                                    <div className='absolute right-[12%] top-36 transform -translate-x-1/2 bg-white shadow-md w-60 text-center' onClick={handleProducts}>
                                         <p
                                             className='text-[19px] py-2 font-semibold text-yellow-400 hover:bg-[#333333] hover:text-white'
                                             onClick={pharmaMachineClick}      >
-                                            Pharama Machine
+                                           Pharmaceutical Machine
                                         </p>
 
                                         <hr />
@@ -126,7 +126,7 @@ const Header = () => {
                             <li className={`cursor-pointer ${selectedItem === 3 ? 'text-blue-600' : ''
                                 } hover:text-blue-600`} onClick={turnKeyClick}>TURNKKEY-PROJECTS</li>
                             <li className={`cursor-pointer ${selectedItem === 4 ? 'text-blue-600' : ''
-                                } hover:text-blue-600`} onClick={contectClick}>CONTECT US</li>
+                                } hover:text-blue-600`} onClick={contectClick}>CONTACT US</li>
                         </ul>
                     </nav>
                 </div>

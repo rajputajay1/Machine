@@ -58,7 +58,7 @@ const Machinery = () => {
             </div>
             <div>
                 <p className='text-[20px] px-20 py-10 max-lg:text-[18px] max-lg:px-5'>
-                    Adinath International is one of the leading pharmaceutical machinery manufacturer offers turnkey engineering solution to the pharmaceutical industry globally. Adinath offers cost effective solutions adhering to the latest industrial & regulatory requirements. Adinath provides engineering services to the Pharmaceutical, Biotech, Cosmetic and Fine Chemicals Industry. Apart from pharmaceutical machinery we also focus on food machinery, chemical machinery, cosmetic machine and customized industrial machinery. We engaged in engineering of various facilities required in pharmaceutical Industry such as Encapsulation, Tablet Granulation, Liquid & Powder Injectables, Dry Syrup Powders etc.
+                    Universe Mach Works International is one of the leading pharmaceutical machinery manufacturer offers turnkey engineering solution to the pharmaceutical industry globally. Universe Mach Works offers cost effective solutions adhering to the latest industrial & regulatory requirements. Universe Mach Works provides engineering services to the Pharmaceutical, Biotech, Cosmetic and Fine Chemicals Industry. Apart from pharmaceutical machinery we also focus on food machinery, chemical machinery, cosmetic machine and customized industrial machinery. We engaged in engineering of various facilities required in pharmaceutical Industry such as Encapsulation, Tablet Granulation, Liquid & Powder Injectables, Dry Syrup Powders etc.
                 </p>
             </div>
 
@@ -80,10 +80,10 @@ const Machinery = () => {
                         
                         <div className="absolute inset-0 transform rotate-180 opacity-0 transition duration-300 hover:opacity-100">
                             <img src={item.image} alt="Alternate side" className="object-cover w-full h-full rounded-lg" />
-                            <div className="text-center pt-6 ">
+                            <div className="text-center pt-4 ">
                                 <p className="text-2xl font-semibold">{item.title}</p>
-                                <p className="text-[18px] font-semibold text-gray-600 pt-3">{item.description}</p>
-                                <div className='py-5 cursor-pointer'>
+                                {/* <p className="text-[18px] font-semibold text-gray-600 pt-3">{item.description}</p> */}
+                                <div className='py-3 cursor-pointer'>
                                     <p className='text-[18px] font-semibold py-1 inline-block px-5 hover:bg-[#333333] hover:text-white'>KNOW MORE</p>
                                 </div>
                             </div>

@@ -25,7 +25,7 @@ const Footer = () => {
                             <FaPhone className='text-white size-10 max-md:size-12 ' />
 
                         </div>
-                        <p className='text-white font-bold text-3xl pt-2 max-lg:text-2xl'>9888885581</p>
+                        <p className='text-white font-bold text-3xl pt-2 max-lg:text-2xl'>+91-9888885581</p>
                     </div>
                     <div className=' flex  items-center flex-col'>
                         <div className='h-24 w-24  bg-[#333333] rounded-full flex items-center justify-center hover:bg-yellow-400 max-md:h-24 max-md:w-24' >
@@ -43,12 +43,12 @@ const Footer = () => {
 
                 </div>
                 <div className="px-20 text-white text-[18px] font-semibold pt-5 max-lg:px-10  max-md:px-5 ">
-                    Pharmaceutical Machinery | Ampoule Filling Machine | Vial Filling Machine | Injectable Filling Machine | Capsule Filling Machine | Powder Filling Machines | Pharmaceutical Filling Machines | Pharma Machinery | Ampoule Filling and Sealing Machine | Sigma Kneader | Ampoule Filler | White Mineral Oil | Petroleum Jelly
+                    Pharmaceutical Machinery | Ampoule Filling Machine | Vial Filling Machine | Injectable Filling Machine | Capsule Filling Machine | Powder Filling Machines | Pharmaceutical Filling Machines | Pharma Machinery 
                 </div>
 
                 <div className='bg-[#111111]  flex h-16 item-center px-20 lg:justify-center mt-10 max-lg:px-10  max-md:px-5  '>
                     <p className='text-white text-[18px]   max-md:text-[14px] flex  items-center '>
-                      ADINATH INTERNATIONAL | ALL RIGHTS RESERVED | POWERED BY PHARMA MACHINERY
+                    Universe Mach Works | ALL RIGHTS RESERVED | POWERED BY Marketing Mingles
                     </p>
 
                 </div>

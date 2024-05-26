@@ -4,11 +4,11 @@ const ChemicalMachine = () => {
     const chemicalMachine = [
         {
             name: "REACTION VESSELS",
-            image:"./m6.jpg"
+            image:"./34.png"
         },
         {
             name: "HEAT EXCHANGERS",
-            image:"./m6.jpg"
+            image:"./34.png"
         },
         {
             name: "RECEIVER TANKS",
@@ -48,7 +48,7 @@ const ChemicalMachine = () => {
 
 
                     <div>
-                        <img src={ machine.image} alt="" className='mx-auto'/>
+                        <img src={ machine.image} alt="" className='mx-auto    bg-contain '/>
                     </div>
                     <div className='bg-violet-600 rounded-full justify-center flex text-center hover:bg-[#333333] cursor-pointer'>
                         <p className='text-3xl font-extrabold text-white py-2 max-md:py-1  max-md:px-2 max-lg:text-2xl max-md:text-[20px] max-sm:text-[17px]'>{machine.name}</p>

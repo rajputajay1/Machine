@@ -17,23 +17,23 @@ const AboutUs = () => {
             <div className='flex lg:px-20 gap-10 pt-10 max-lg:px-5 max-lg:flex-col'>
 
 
-                <div className='text-[18px] font-semibold lg:pr-20 '>
-                    <p>Adinath International is engaged into Pharmaceutical turnkey project export to the international market. Adinath International offers complete solution for setting up pharmaceutical formulation projects including layout designs, detailed engineering, capacity calculation based on client input, engineering specifications, HVAC System design, on-time supply of equipment, installation, commissioning, etc. The company is based in Ahmedabad, India and has a pool of dedicated professionals from the field.</p>
+                <div className='text-[18px] font-semibold lg:pr-40 '>
+                    <p>At Universe Mach Works, we pride ourselves on being the premier provider of top-tier machinery for the pharmaceutical, food, cosmetics, and chemical industries. Founded on the principles of quality, reliability, and customer satisfaction, we have grown to become the leading stockists in North India.</p>
+                    <p className='text-2xl font-bold  pt-5'>Our Mission</p>
                     <p className='py-4'>
-                        We work closely with our client and offer personalized and cost effective solutions. The strength of the company lies in meeting its commitments to its client. It is a matter of great satisfaction to us that our clients continue to have business relationship with us on a continuous basis.
+                    Our mission is to empower businesses with state-of-the-art machinery that enhances productivity and ensures operational efficiency. We are dedicated to providing innovative solutions that meet the unique needs of our clients.
                     </p>
-                    <p>  Apart from Pharmaceutical, Biotech & Veterinary Adinath International also works for Cosmetic, Food, Chemical & Distillery plants.</p>
+                  
 
                 </div>
 
-
-
-                <img src="	./m10.jpg" alt="About Us Image" height={400} width={500} className='rounded-md' />
+                <img src="	./m10.jpg" alt="About Us Image" height={300} width={400} className='rounded-md' />
 
             </div>
-            <div className='text-[18px] font-semibold  lg:px-20 pt-10 max-lg:px-5' >
+            <div className='text-[18px] font-semibold  lg:px-20 pt-5 max-lg:px-5' >
+                <p className='text-2xl  pb-5 font-bold'>Our Vision</p>
                 <p>
-                    Our Vision is to deliver well engineered, high quality equipments equivalent to international standards & meeting the client’s requirement at reasonable prices. Robust design, quality procedures & careful inspection make our product accurate and precise. Constructed from the ground up with finest material, our products are up to the mark to the demanding requirement of GMP and cGMP standards.
+                We aim to be the global leader in industrial machinery, known for our commitment to quality, customer satisfaction, and technological innovation. We strive to build long-term relationships with our clients by consistently delivering superior products and services.
                 </p>
                 <p className=''>
                     We take pride in supplying most economical, sturdy and easily maintainable machines to suit the requirements of our customer’s individual specific requirements. Their suggestions, guidance and feedback immensely helped us in designing tailor made machines for their special needs.
@@ -58,7 +58,7 @@ const AboutUs = () => {
                             <div className="flex items-center flex-col">
                                 <p className='text-3xl font-semibold pt-3'>Our People</p>
                                 <p className='text-md px-5 py-3'>
-                                    At Adinath our people considered as biggest assets. Founded by team of experienced professionals from the field, we are an award winning team that transforms ideas into great experiences. We have segment of people dedicated specially for research & development cause which put us apart in the industry. Innovation is key to development and people at Adinath believe in this philosophy.
+                                Our team consists of highly skilled professionals with extensive experience in the machinery industry. From engineers to customer service representatives, everyone at Universe Mach Works is dedicated to providing the best possible experience for our clients.
                                 </p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const AboutUs = () => {
                             <div className="flex items-center flex-col">
                                 <p className='text-3xl font-semibold pt-3'>Leadership Team</p>
                                 <p className='text-md px-5 py-3'>
-                                    Enterprise grows with great entrepreneur skills. Leaders don’t create followers, they create more leaders. Enduring passion for work and high ethical standards defines our leadership team. Adinath group’s vision is to be pioneer in engineering field with cost effective solution to the industry. Our vision is to make complex technologies viable and accessible on affordable cost.
+                                    Enterprise grows with great entrepreneur skills. Leaders don’t create followers, they create more leaders. Enduring passion for work and high ethical standards defines our leadership team. Universe Mach Works vision is to be pioneer in engineering field with cost effective solution to the industry. Our vision is to make complex technologies viable and accessible on affordable cost.
                                 </p>
                             </div>
                         </div>

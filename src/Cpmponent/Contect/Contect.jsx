@@ -15,19 +15,19 @@ const Contect = () => {
                 <p className='text-4xl font-extrabold max-lg:text-3xl  max-lg:text-center  pb-3'>Corporate Office</p>
                 <div className='bg-yellow-400 h-1 w-10 max-lg:w-28 max-lg:mx-auto'></div>
                 <div className='flex gap-5 mt-6 max-lg:text-center  max-lg:flex-col max-lg:justify-center items-center'>
-                    <FaHome className='size-8 text-gray-800' />
+                    <FaHome className='size-20 max-lg:size-8 text-gray-800' />
 
-                    <p className='text-gray-800 font-semibold text-[18px]'>Plot Number 303 A, Barwala Road, Hansa Industrial Park , Derabassi , S.A.S. Nagar , Distt. Mohali (Punjab)-140507</p>
+                    <p className='text-gray-800 font-semibold text-[18px]'>Plot Number 303A,Barwala Road, Hansa Industrial Park , Derabassi , S.A.S. Nagar , Distt. Mohali (Punjab)-140507</p>
                 </div>
                 <div className='flex gap-5 mt-6 max-lg:text-center  max-lg:flex-col max-lg:justify-center items-center'>
                     <FaPhone className='size-8 text-gray-800' />
 
-                    <p className='text-gray-800 font-semibold text-[18px]'>1234567890</p>
+                    <p className='text-gray-800 font-semibold text-[18px]'>+91-9888885581</p>
                 </div>
                 <div className='flex gap-5 mt-6 max-lg:text-center  max-lg:flex-col max-lg:justify-center items-center'>
                     <FaEnvelope className='size-8 text-gray-800' />
 
-                    <p className='text-gray-800 font-semibold text-[18px]'>info@adinath.co.in</p>
+                    <p className='text-gray-800 font-semibold text-[18px]'>universemachworks@gmail.com</p>
                 </div>
             </div>
 
@@ -44,15 +44,15 @@ const Contect = () => {
                         <div class="grid grid-cols-6 gap-10">
                             <div class="col-span-6 sm:col-span-3">
                                 <label for="product-name" class="text-sm font-medium text-gray-900 block mb-2">FIRST NAME *</label>
-                                <input type="text" name="product-name" id="product-name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Apple Imac 27”" required="" />
+                                <input type="text" name="product-name" id="product-name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"  required="" />
                             </div>
                             <div class="col-span-6 sm:col-span-3">
                                 <label for="category" class="text-sm font-medium text-gray-900 block mb-2">Last NAME *</label>
-                                <input type="text" name="category" id="category" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Electronics" required="" />
+                                <input type="text" name="category" id="category" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"  required="" />
                             </div>
                             <div class="col-span-6 sm:col-span-3">
                                 <label for="brand" class="text-sm font-medium text-gray-900 block mb-2">EMAIL ADDRESS *</label>
-                                <input type="text" name="brand" id="brand" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Apple" required="" />
+                                <input type="text" name="brand" id="brand" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" required="" />
                             </div>
                             <div class="col-span-6 sm:col-span-3">
                                 <label for="price" class="text-sm font-medium text-gray-900 block mb-2">
@@ -60,18 +60,18 @@ const Contect = () => {
                                     PHONE NUMBER *
 
                                 </label>
-                                <input type="number" name="price" id="price" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="$2300" required="" />
+                                <input type="number" name="price" id="price" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" required="" />
                             </div>
                             <div class="col-span-full">
                                 <label for="product-details" class="text-sm font-medium text-gray-900 block mb-2">HOW CAN WE HELP?</label>
-                                <textarea id="product-details" rows="6" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-4" placeholder="Details"></textarea>
+                                <textarea id="product-details" rows="6" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-4"></textarea>
                             </div>
                         </div>
                     </form>
                 </div>
 
                 <div class="p-6 border-t border-gray-200 rounded-b">
-                    <button class="text-black bg-yellow-400  text-nowrap cursor-pointer hover:text-white hover:bg-[#333333] font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="submit">GET FREE QUATE</button>
+                    <button class="text-black bg-yellow-400  text-nowrap cursor-pointer hover:text-white hover:bg-[#333333]  rounded-lg text-sm px-5 py-2.5 text-center font-bold" type="submit">GET FREE QUATE</button>
                 </div>
 
 
