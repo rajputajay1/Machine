@@ -80,7 +80,7 @@ const Contect = () => {
                 </div>
 
                 <div class="p-6 border-t border-gray-200 rounded-b">
-                    <button class="text-black bg-yellow-400  text-nowrap cursor-pointer hover:text-white hover:bg-[#333333]  rounded-lg text-sm px-5 py-2.5 text-center font-bold" type="submit">GET FREE QUATE</button>
+                    <button class="text-black bg-yellow-400  text-nowrap cursor-pointer hover:text-white hover:bg-[#333333]  rounded-lg text-sm px-5 py-2.5 text-center font-bold" type="submit">GET FREE QUOTE</button>
                 </div>
 
 

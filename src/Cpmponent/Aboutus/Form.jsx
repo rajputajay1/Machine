@@ -42,7 +42,7 @@ const Form = () => {
                     </div>
 
                     <div className="p-6 border-t border-gray-200 rounded-b">
-                        <button className="text-white bg-yellow-400 hover:bg-[#333333] focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="submit">GET A FREE QUATE</button>
+                        <button className="text-white bg-yellow-400 hover:bg-[#333333] focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="submit">GET A FREE QUOTE</button>
                     </div>
 
                 </div>

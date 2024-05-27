@@ -71,7 +71,11 @@ const Header = () => {
             <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 ">
 
                 <div class="flex-1 flex justify-between items-center">
-                    <img src="./logo.png" alt="" className='w-28' />
+                    <div className='flex items-center lg:gap-5'>
+
+                        <img src="./logo.png" alt="" className='w-28' />
+                        <p className='text-gray-700 font-bold text-2xl text-center max-lg:text-[15px] max-md:hidden'>Universe Mach Works</p>
+                    </div>
                     {/* <a href="#" class="text-3xl">Company</a> */}
                 </div>
 
@@ -102,7 +106,7 @@ const Header = () => {
                                         <p
                                             className='text-[19px] py-2 font-semibold text-yellow-400 hover:bg-[#333333] hover:text-white'
                                             onClick={pharmaMachineClick}      >
-                                           Pharmaceutical Machine
+                                            Pharmaceutical Machine
                                         </p>
 
                                         <hr />

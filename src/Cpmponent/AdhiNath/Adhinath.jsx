@@ -14,7 +14,7 @@ const Adhinath = () => {
         
             <div
                 class="shadow-md border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-                <img src="./a1.jpg" class="w-full mb-3" />
+                <img src="./adhinath2.jpg" class="w-full mb-3 h-[220px]" />
                 <div class="p-4 pt-2">
                     <div class="mb-8">
                         <p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]">
@@ -32,9 +32,9 @@ const Adhinath = () => {
                 </div>
             <div
                 class="shadow-md border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-                <img src="./adhinath2.jpg" class="w-full mb-3" />
+                <img src="./a1.jpg" class="w-full mb-3 h-[220px]" />
                 <div class="p-4 pt-2">
-                    <div class="mb-16">
+                    <div class="mb-14">
                         <p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]">
                         Beginners Guide for Capsule Filling Machines</p>
                         <p class="text-sm text-gray-600 flex items-center">
@@ -50,7 +50,7 @@ const Adhinath = () => {
                 </div>
             <div
                 class="shadow-md border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-                <img src="./m7.jpeg" class="w-full mb-3" />
+                <img src="./16.jpg" class="w-full h-[220px] mb-3 " />
                 <div class="p-4 pt-2">
                     <div class="mb-8">
                         <p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]">
