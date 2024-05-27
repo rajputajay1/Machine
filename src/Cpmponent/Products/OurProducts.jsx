@@ -44,7 +44,7 @@ import React from 'react';
 const OurProducts = () => {
     // Dummy list of products
     const products = [
-        { id: 1, name: 'Filling Machines', imageUrl: './m6.jpg' },
+        { id: 1, name: 'Filling Machines', imageUrl: './a3.jpg' },
         { id: 2, name: 'Capping Machines', imageUrl: './m6.jpg' },
         { id: 3, name: 'Labeling Machines', imageUrl: './m6.jpg' },
         { id: 4, name: 'Mixer Blenders', imageUrl: './m6.jpg' },

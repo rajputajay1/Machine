@@ -4,11 +4,11 @@ const ChemicalMachine = () => {
     const chemicalMachine = [
         {
             name: "REACTION VESSELS",
-            image:"./chemical1.png"
+            image:"./a4.jpg"
         },
         {
             name: "HEAT EXCHANGERS",
-            image:"./34.png"
+            image:"./a3.jpg"
         },
         {
             name: "RECEIVER TANKS",
