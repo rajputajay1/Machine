@@ -35,15 +35,16 @@ const OneStop = () => {
             <div className='flex justify-center pt-8'>
                 <p className='text-[20PX] font-semibold hover:bg-yellow-400 py-2 text-center cursor-pointer hover:text-white  px-14'>VIEW ALL PROJECTS</p>
             </div>
+            <img src="./laed.jpg" alt=""  className='w-full mt-5'/>
 
-            <div style={{ backgroundImage: "url('./m11.jpg')", }} className='lg:h-[300px]  bg-cover max-lg:h-[300px] mt-10  flex items-center justify-center flex-col gap-5  '>
+            {/* <div style={{ backgroundImage: "url('./m11.jpg')", }} className='lg:h-[300px]  bg-cover max-lg:h-[300px] mt-10  flex items-center justify-center flex-col gap-5  '>
 
                 <div className={` lg:px-10 max-lg:px-3 items-center justify-center py-2  `}>
                     <h1 className="text-5xl font-bold pb-1 text-white  max-lg:text-2xl text-center"> <span className='text-yellow-400'>LEADERSHIP IS NOT A POSITION, IT IS AN EXAMPLE..</span> </h1>
 
                 </div>
                 <p className='text-yellow-400 font-normal text-2xl text-center max-md:text-[18px]'>Great Leaders don’t set out to be a Leader, They set out to make a difference.</p>
-            </div>
+            </div> */}
         </>
     )
 }

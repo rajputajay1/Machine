@@ -4,8 +4,13 @@ import React from 'react'
 const Productvity = () => {
     return (
         <>
-       
-                <div className='bg-gray-800 mt-12 h-[500px] bg-cover'  style={{ backgroundImage: `url(./m11.jpg)` }}  >
+            <div  className='mt-14'>
+
+                <img src="./prod.jpg" alt="" className='w-full' />
+            </div>
+
+            
+            {/* <div className='bg-gray-800 mt-12 h-[500px] bg-cover'  style={{ backgroundImage: `url(./prod.jpg)` }}  >
                    
                     <div className=' lg:gap-20 lg:px-20 max-lg:px-5  flex max-lg:flex-col '>
                         
@@ -23,8 +28,8 @@ const Productvity = () => {
                         <p className='font-normal text-white pt-2 max-lg:pb-5 '>Only takes a few seconds!</p>
                     </div>
                 </div>
-                </div>
-            
+                </div> */}
+
         </>
     )
 }

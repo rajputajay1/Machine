@@ -3,7 +3,19 @@ import Mixture from '../Mixture/Mixture'
 const Turnkkey = () => {
     return (
         <>
-            <Mixture></Mixture>
+            <img src="./turn.jpg" alt="" className='w-full' />
+            <div className='relative mb-10'>
+                <div className='bg-[#f8d55f]'>
+                    <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center'>
+                        Pharmaceutical Machinery Manufacturer with 120+ Installations Across the Globe
+                    </p>
+                </div>
+                <div className='text-center border-t-2 border-l-2 border-r-2 border-white flex justify-center mx-auto relative cursor-pointer'>
+                    <p className=' hover:text-black hover:bg-white hover:border-2 hover:border-black max-lg:text-[15px]  text-[20px] border-t-2 border-l-2 border-r-2 border-white  font-semibold text-white  bg-[#333333] px-5  py-1 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-sm:px-1'>
+                        GET A FREE QUOTE
+                    </p>
+                </div>
+            </div>
             <div className='border-box m-3 lg:px-10 max-lg:px-5 pt-5 max-sm:px-2 pb-8'>
                 <p className='mb-3 text-black-500 dark:text-black-400 text-lg' >
                     At Universe Mach Works, we specialize in delivering turnkey project solutions that take your industrial projects from concept to completion with unparalleled efficiency and precision. Our turnkey projects are designed to provide you with a seamless and hassle-free experience, ensuring that every aspect of your project is handled by our team of experts.</p>

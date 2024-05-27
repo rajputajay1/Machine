@@ -4,7 +4,7 @@ const ChemicalMachine = () => {
     const chemicalMachine = [
         {
             name: "REACTION VESSELS",
-            image:"./34.png"
+            image:"./chemical1.png"
         },
         {
             name: "HEAT EXCHANGERS",

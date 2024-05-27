@@ -58,7 +58,7 @@ const Header = () => {
             <nav className=''>
                 <div className='bg-white flex justify-between items-center h-14 px-16 max-md:hidden max-lg:px-6   '>
                     <div className='flex gap-10'>
-                        <p className='text-black text-[18px] '>9888885581</p>
+                        <p className='text-black text-[18px] '>+91-9888885581</p>
                         <p className='text-black text-[18px] '>universemachworks@gmail.com
                         </p>
                     </div>
@@ -124,7 +124,7 @@ const Header = () => {
                             </div>
 
                             <li className={`cursor-pointer ${selectedItem === 3 ? 'text-blue-600' : ''
-                                } hover:text-blue-600`} onClick={turnKeyClick}>TURNKKEY-PROJECTS</li>
+                                } hover:text-blue-600`} onClick={turnKeyClick}>TURNKEY-PROJECTS</li>
                             <li className={`cursor-pointer ${selectedItem === 4 ? 'text-blue-600' : ''
                                 } hover:text-blue-600`} onClick={contectClick}>CONTACT US</li>
                         </ul>
