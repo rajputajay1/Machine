@@ -74,7 +74,7 @@ const Header = () => {
                     <div className='flex items-center lg:gap-5'>
 
                         <img src="./logo.png" alt="" className='w-28' />
-                        <p className='text-gray-700 font-bold text-2xl text-center max-lg:text-[15px] max-md:hidden'>Universe Mach Works</p>
+                        <p className='text-gray-700 font-bold text-4xl text-center max-lg:text-[15px] max-md:hidden'>Universe Mach Works</p>
                     </div>
                     {/* <a href="#" class="text-3xl">Company</a> */}
                 </div>

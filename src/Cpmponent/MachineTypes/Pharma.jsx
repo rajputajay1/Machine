@@ -4,35 +4,35 @@ const Pharma = () => {
     const PHARMAMachine = [
         {
             name: "VIBRO SHIFTER ",
-            image:"./m6.jpg"
+            image:"./px1.png"
         },
         {
             name: "PASTE KETTLE",
-            image:"./m6.jpg"
+            image:"./px2.png"
         },
         {
             name: "TRAY DRYER",
-            image:"./m6.jpg"
+            image:"./px3.png"
         },
         {
             name: "COLLOID MILL",
-            image:"./m6.jpg"
+            image:"./px4.png"
         },
         {
             name: "MULTI MILL ",
-            image:"./m6.jpg"
+            image:"./px5.png"
         },
         {
             name: "COATING MACHINE",
-            image:"./m6.jpg"
+            image:"./px6.png"
         },
         {
             name: "FLUID BED DRYER",
-            image:"./m6.jpg"
+            image:"./px7.png"
         },
         {
             name: "BLENDERS",
-            image:"./m6.jpg"
+            image:"./px8.png"
         },
     ]
   return (
@@ -48,9 +48,9 @@ const Pharma = () => {
 
 
             <div>
-                <img src={ machine.image} alt="" className='mx-auto'/>
+                <img src={ machine.image} alt="" className='mx-auto bg-contain  h-[300px]'/>
             </div>
-            <div className='bg-violet-600 rounded-full justify-center flex text-center hover:bg-[#333333] cursor-pointer'>
+            <div className='bg-violet-600 rounded-full justify-center flex text-center  mt-5 hover:bg-[#333333] cursor-pointer'>
                 <p className='text-3xl font-extrabold text-white py-2 max-md:py-1 px-3  max-md:px-2 max-lg:text-2xl max-md:text-[20px] max-sm:text-[17px]'>{machine.name}</p>
             </div>
         </div>

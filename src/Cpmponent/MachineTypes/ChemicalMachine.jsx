@@ -8,31 +8,31 @@ const ChemicalMachine = () => {
         },
         {
             name: "HEAT EXCHANGERS",
-            image:"./a3.jpg"
+            image:"./c2.png"
         },
         {
             name: "RECEIVER TANKS",
-            image:"./m6.jpg"
+            image:"./tans1.png"
         },
         {
             name: "FERMENTORS",
-            image:"./m6.jpg"
+            image:"./c1.png"
         },
         {
             name: "RIBBON BLENDER ",
-            image:"./m6.jpg"
+            image:"./c5.png"
         },
         {
             name: "TRAY DRYER",
-            image:"./m6.jpg"
+            image:"./c6.png"
         },
         {
             name: "FLUID BED DRYER",
-            image:"./m6.jpg"
+            image:"./c7.png"
         },
         {
             name: "PRESSURE NAUTCH FILTER",
-            image:"./m6.jpg"
+            image:"./c8.png"
         },
     ]
     return (
@@ -48,9 +48,9 @@ const ChemicalMachine = () => {
 
 
                     <div>
-                        <img src={ machine.image} alt="" className='mx-auto    bg-contain '/>
+                        <img src={ machine.image} alt="" className='mx-auto    bg-contain  h-[300px] '/>
                     </div>
-                    <div className='bg-violet-600 rounded-full justify-center flex text-center hover:bg-[#333333] cursor-pointer'>
+                    <div className='bg-violet-600 rounded-full justify-center  mt-5 flex text-center hover:bg-[#333333] cursor-pointer'>
                         <p className='text-3xl font-extrabold text-white py-2 max-md:py-1  max-md:px-2 max-lg:text-2xl max-md:text-[20px] max-sm:text-[17px]'>{machine.name}</p>
                     </div>
                 </div>

@@ -4,23 +4,23 @@ const CapsuleMachine = () => {
     const capsuleMachine = [
         {
             name: "CAPSULE FILLING MACHINE ",
-            image:"./m6.jpg"
+            image:"./ca1.png"
         },
         {
             name: "AUTOMATIC CAPSULE LOADER",
-            image:"./m6.jpg"
+            image:"./ca2.png"
         },
         {
             name: "DOUBLE CONE MIXER ",
-            image:"./m6.jpg"
+            image:"./ca3.png"
         },
         {
             name: "CAPSULE POLISHING MACHINE ",
-            image:"./m6.jpg"
+            image:"./ca4.png"
         },
         {
             name: "DEHUMIDIFIER - STANDARD MODEL ",
-            image:"./m6.jpg"
+            image:"./ca5.png"
         },
      
     ]
@@ -37,9 +37,9 @@ const CapsuleMachine = () => {
 
 
             <div>
-                <img src={ machine.image} alt="" className='mx-auto'/>
+                <img src={ machine.image} alt="" className='mx-auto   bg-contain  h-[300px]'/>
             </div>
-            <div className='bg-violet-600 rounded-full justify-center flex text-center  hover:bg-[#333333] cursor-pointer'>
+            <div className='bg-violet-600 rounded-full justify-center flex text-center mt-5 hover:bg-[#333333] cursor-pointer'>
                 <p className='text-3xl font-extrabold text-white py-2 max-md:py-1 px-3  max-md:px-2 max-lg:text-2xl max-md:text-[20px] max-sm:text-[17px]'>{machine.name}</p>
             </div>
         </div>

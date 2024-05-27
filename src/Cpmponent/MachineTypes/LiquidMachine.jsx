@@ -4,35 +4,35 @@ const LiquidMachine = () => {
     const LiquidMachine = [
         {
             name: "TWO HEAD VOLUMETRIC LIQUID FILLING",
-            image:"./m6.jpg"
+            image:"./li1.png"
         },
         {
             name: "ROP CAP SEALING",
-            image:"./m6.jpg"
+            image:"./li2.png"
         },
         {
             name: "INDUSTRIAL MOTORISED STIRRER",
-            image:"./m6.jpg"
+            image:"./li3.png"
         },
         {
             name: "EMULSIFIER/HOMOGENISER WITH LIFTING SYSTEM ",
-            image:"./m6.jpg"
+            image:"./li4.png"
         },
         {
             name: "ELECTRIC JACKETTED HEATING TANK ",
-            image:"./m6.jpg"
+            image:"./li5.png"
         },
         {
             name: "FILTER PRESS MACHINE - GMP MODEL",
-            image:"./m6.jpg"
+            image:"./li6.png"
         },
         {
             name: "HEATING TANK WITH STIRRER ",
-            image:"./m6.jpg"
+            image:"./li7.png"
         },
         {
             name: "STORAGE / MIXING TANK",
-            image:"./m6.jpg"
+            image:"./li8.png"
         },
     ]
   return (
@@ -48,9 +48,9 @@ const LiquidMachine = () => {
 
 
                     <div>
-                        <img src={ machine.image} alt="" className='mx-auto'/>
+                        <img src={ machine.image} alt="" className='mx-auto  bg-contain  h-[300px]'/>
                     </div>
-                    <div className='bg-violet-600 rounded-full justify-center flex text-center hover:bg-[#333333] cursor-pointer'>
+                    <div className='bg-violet-600 rounded-full justify-center flex text-center mt-5 hover:bg-[#333333] cursor-pointer'>
                         <p className='text-3xl font-extrabold text-white py-2 max-md:py-1 px-3  max-md:px-2 max-lg:text-2xl max-md:text-[20px] max-sm:text-[17px]'>{machine.name}</p>
                     </div>
                 </div>
