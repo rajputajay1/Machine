@@ -28,11 +28,11 @@ const ChemicalMachine = () => {
         },
         {
             name: "FLUID BED DRYER",
-            image:"./c7.png"
+            image:"./ch12.png"
         },
         {
             name: "PRESSURE NAUTCH FILTER",
-            image:"./c8.png"
+            image:"./ch11.png"
         },
     ]
     return (

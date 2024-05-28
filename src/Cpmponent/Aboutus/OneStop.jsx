@@ -21,19 +21,19 @@ const OneStop = () => {
             <div className='grid grid-cols-3 gap-5 max-md:px-5 px-20 pt-10 max-lg:grid-cols-2 max-lg:px-4 max-md:grid-cols-1 max-md:gap-7  '>
 
                 <div className='border border-[#108aca]'>
-                    <img src="./pharma1.jpg" alt="{product.name}" className='  object-center h-[200px] w-full max-md:my-2 max-md:h-[150px]' />
+                    <img src="./pharma1.jpg" alt="{product.name}" className='  object-center h-[200px] w-full  max-md:h-[150px]' />
                     <div className=' py-2 max-lg:py-1 text-center cursor-pointer hover:text-[#108aca] my-5'>
                         <p className='text-3xl font-semibold max-lg:text-[18px]'>Pharmaceutical Machine</p>
                     </div>
                 </div>
                 <div className='border border-[#108aca]'>
-                    <img src="./chemical2.jpg" alt="{product.name}" className='  object-center mx-auto h-[200px] w-full max-md:my-2 max-md:h-[150px]' />
+                    <img src="./chemical2.jpg" alt="{product.name}" className='  object-center mx-auto h-[200px] w-full  max-md:h-[150px]' />
                     <div className=' py-2 max-lg:py-1 text-center cursor-pointer hover:text-[#108aca] my-5'>
                         <p className='text-3xl font-semibold max-lg:text-[18px]'>Chemical Industrial Machine</p>
                     </div>
                 </div>
                 <div className='border border-[#108aca]'>
-                    <img src="./food.jpg" alt="{product.name}" className='  object-center mx-auto h-[200px] w-full max-md:my-2 max-md:h-[150px]' />
+                    <img src="./food.jpg" alt="{product.name}" className='  object-center mx-auto h-[200px] w-full \ max-md:h-[150px]' />
                     <div className=' py-2 max-lg:py-1 text-center cursor-pointer hover:text-[#108aca] my-5 '>
                         <p className='text-3xl font-semibold max-lg:text-[18px]'>Food Industrial Machine</p>
                     </div>

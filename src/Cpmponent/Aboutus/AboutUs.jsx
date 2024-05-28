@@ -17,7 +17,7 @@ const AboutUs = () => {
             <div className='flex lg:px-20 gap-10 pt-10 max-lg:px-5 max-lg:flex-col'>
 
 
-                <div className='text-[18px] font-semibold lg:pr-40 '>
+                <div className='text-[18px] font-semibold lg:pr-32 '>
                     <p>At Universe Mach Works, we pride ourselves on being the premier provider of top-tier machinery for the pharmaceutical, food, cosmetics, and chemical industries. Founded on the principles of quality, reliability, and customer satisfaction, we have grown to become the leading stockists in North India.</p>
                     <p className='text-2xl font-bold  pt-5'>Our Mission</p>
                     <p className='py-4'>
@@ -27,7 +27,7 @@ const AboutUs = () => {
 
                 </div>
 
-                <img src="	./m10.jpg" alt="About Us Image" height={300} width={400} className='rounded-md' />
+                <img src="	./about1.jpg" alt="About Us Image"   className='rounded-md lg:h-[350px] max-lg:w-full max-lg:h-[250px] ' />
 
             </div>
             <div className='text-[18px] font-semibold  lg:px-20 pt-5 max-lg:px-5' >
