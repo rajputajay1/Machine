@@ -24,7 +24,7 @@ const LiquidMachine = () => {
         },
         {
             name: "FILTER PRESS MACHINE - GMP MODEL",
-            image:"./li6.png"
+            image:"./li13.png"
         },
         {
             name: "HEATING TANK WITH STIRRER ",
