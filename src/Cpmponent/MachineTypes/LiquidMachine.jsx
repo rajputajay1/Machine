@@ -8,11 +8,11 @@ const LiquidMachine = () => {
         },
         {
             name: "ROP CAP SEALING",
-            image:"./li2.png"
+            image:"./li11.png"
         },
         {
             name: "INDUSTRIAL MOTORISED STIRRER",
-            image:"./li3.png"
+            image:"./li10.png"
         },
         {
             name: "EMULSIFIER/HOMOGENISER WITH LIFTING SYSTEM ",
