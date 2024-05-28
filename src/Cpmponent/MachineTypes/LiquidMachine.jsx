@@ -8,11 +8,11 @@ const LiquidMachine = () => {
         },
         {
             name: "ROP CAP SEALING",
-            image:"./li11.png"
+            image:"./li14.png"
         },
         {
             name: "INDUSTRIAL MOTORISED STIRRER",
-            image:"./li10.png"
+            image:"./li15.png"
         },
         {
             name: "EMULSIFIER/HOMOGENISER WITH LIFTING SYSTEM ",
@@ -20,7 +20,7 @@ const LiquidMachine = () => {
         },
         {
             name: "ELECTRIC JACKETTED HEATING TANK ",
-            image:"./li5.png"
+            image:"./li13.png"
         },
         {
             name: "FILTER PRESS MACHINE - GMP MODEL",
