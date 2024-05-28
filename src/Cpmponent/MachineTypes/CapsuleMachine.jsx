@@ -20,7 +20,7 @@ const CapsuleMachine = () => {
         },
         {
             name: "DEHUMIDIFIER - STANDARD MODEL ",
-            image:"./ca5.png"
+            image:"./ca11.png"
         },
      
     ]

@@ -25,7 +25,7 @@ const OurProducts = () => {
 
     return (
         <>
-            <p className='text-[#333333] text-2xl font-semibold text-center  mt-16' >Our Products</p>
+            <p className='text-[#333333] text-2xl font-semibold text-center  mt-20 max-md:mt-28' >Our Products</p>
             <div className='grid grid-cols-4 gap-5 max-md:px-5 px-10 pt-10 max-lg:grid-cols-2 max-lg:px-4 max-md:grid-cols-1 max-md:gap-7'>
                 {products.map((product) => (
                     <div key={product.id} className='border'>

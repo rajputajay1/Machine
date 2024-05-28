@@ -62,7 +62,7 @@ const Machinery = () => {
                 </p>
             </div>
 
-            <div className='grid grid-cols-4 gap-10 px-10 max-lg:px-5 max-lg:grid-cols-2 max-md:grid-cols-1' >
+            <div className='grid grid-cols-4 gap-10 px-10 max-lg:px-5 max-lg:grid-cols-2 max-md:grid-cols-1 hover:max-lg:gap-20' >
                 {machineryItems.map((item, idx) => (
                     <div key={idx} className="transform rounded-lg bg-[#108aca] transition duration-300 hover:rotate-180">
                         <div className="flex flex-col justify-center items-center py-10">
@@ -80,10 +80,10 @@ const Machinery = () => {
                         
                         <div className="absolute inset-0 transform rotate-180 opacity-0 transition duration-300 hover:opacity-100">
                             <img src={item.image} alt="Alternate side" className="object-cover w-full h-full rounded-lg" />
-                            <div className="text-center pt-4 ">
+                            <div className="text-center pt-2 ">
                                 <p className="text-2xl font-semibold">{item.title}</p>
                                 {/* <p className="text-[18px] font-semibold text-gray-600 pt-3">{item.description}</p> */}
-                                <div className='py-3 cursor-pointer'>
+                                <div className='py-1 cursor-pointer'>
                                     <p className='text-[18px] font-semibold py-1 inline-block px-5 hover:bg-[#333333] hover:text-white'>KNOW MORE</p>
                                 </div>
                             </div>

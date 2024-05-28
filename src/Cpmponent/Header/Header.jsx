@@ -142,7 +142,6 @@
 // export default Header
 
 
-
 import React from 'react';
 import Icons from './Icons';
 import { useNavigate } from 'react-router-dom';
@@ -228,14 +227,14 @@ const Header = () => {
 
                 <div className={`lg:flex lg:items-center lg:w-auto w-full ${menuOpen ? 'block' : 'hidden'}`} id="menu">
                     <nav>
-                        <ul className="md:flex items-center justify-between text-[18px] gap-6 text-gray-700 pt-4 md:pt-0 cursor-pointer">
+                        <ul className="lg:flex items-center justify-between text-[18px] gap-6 text-gray-700 pt-4 md:pt-0 cursor-pointer">
                             <li className={`cursor-pointer ${selectedItem === 0 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={homeClick}>HOME</li>
                             <li className={`cursor-pointer ${selectedItem === 1 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={aboutClick}>ABOUT</li>
 
                             <li className={`relative cursor-pointer ${selectedItem === 2 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={handleProducts}>
                                 <span>PRODUCTS</span>
                                 {productsDropdownOpen && (
-                                    <ul className='absolute left-0 mt-2 bg-white shadow-md w-60 text-center md:static md:bg-transparent md:shadow-none'>
+                                    <ul className='absolute mt-2 bg-white shadow-md w-60 text-center lg:right-0 lg:transform lg:translate-x-1/2 lg:top-8'>
                                         <li className='text-[19px] py-2 font-semibold text-[#108aca] hover:bg-[#333333] hover:text-white' onClick={pharmaMachineClick}>Pharmaceutical Machine</li>
                                         <li className='text-[19px] py-2 font-semibold text-[#108aca] hover:bg-[#333333] hover:text-white' onClick={chemicalMachineClick}>Chemical Machine</li>
                                         <li className='text-[19px] py-2 font-semibold text-[#108aca] hover:bg-[#333333] hover:text-white' onClick={capsuleMachineClick}>Capsule Machine</li>
