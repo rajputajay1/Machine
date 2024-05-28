@@ -12,7 +12,7 @@ const AboutUs = () => {
                     About Us
 
                 </p>
-                <div className='bg-yellow-400 h-[2px] mt-4 max-lg:mt-3 w-40 mx-auto max-lg:w-40 '></div>
+                <div className='bg-[#108aca] h-[2px] mt-4 max-lg:mt-3 w-40 mx-auto max-lg:w-40 '></div>
             </div>
             <div className='flex lg:px-20 gap-10 pt-10 max-lg:px-5 max-lg:flex-col'>
 
@@ -44,7 +44,7 @@ const AboutUs = () => {
                     Our Team
 
                 </p>
-                <div className='bg-yellow-400 h-1 mt-2 max-lg:mt-3 w-36 mx-auto max-lg:w-32 '></div>
+                <div className='bg-[#108aca] h-1 mt-2 max-lg:mt-3 w-36 mx-auto max-lg:w-32 '></div>
             </div>
           
             <div className='pt-10 grid grid-cols-2 gap-10 lg:px-20 relative overflow-hidden max-lg:px-5 max-md:grid-cols-1'>

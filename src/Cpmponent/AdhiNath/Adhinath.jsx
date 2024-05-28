@@ -70,7 +70,7 @@ const Adhinath = () => {
 
             </div>
             <div className='flex justify-center pt-20 '>
-                <p className='text-2xl font-semibold bg-yellow-400 py-2 text-center cursor-pointer hover:text-white hover:bg-[#333333]  px-14 '>View All Blogs</p>
+                <p className='text-2xl font-semibold text-white bg-[#108aca] py-2 text-center cursor-pointer  hover:bg-[#333333]  px-14 '>View All Blogs</p>
             </div>
 
         </>

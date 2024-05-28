@@ -38,7 +38,7 @@ const ChemicalMachine = () => {
     return (
         <>
             <div>
-                <p className='text-5xl font-extrabold text-yellow-400 text-center max-lg:text-3xl max-md:text-2xl underline  mt-5'>CHEMICAL SECTION</p>
+                <p className='text-5xl font-extrabold text-[#108aca] text-center max-lg:text-3xl max-md:text-2xl underline  mt-5'>CHEMICAL SECTION</p>
             </div>
             <div className='grid-cols-2 grid gap-10 max-md:grid-cols-1    px-10 max-lg:px-4 mt-8 pb-20'>
 
@@ -48,9 +48,9 @@ const ChemicalMachine = () => {
 
 
                     <div>
-                        <img src={ machine.image} alt="" className='mx-auto    bg-contain  h-[300px] '/>
+                        <img src={ machine.image} alt="" className='mx-auto    bg-contain  h-[300px]  max-md:h-[200px] '/>
                     </div>
-                    <div className='bg-violet-600 rounded-full justify-center  mt-5 flex text-center hover:bg-[#333333] cursor-pointer'>
+                    <div className='bg-[#108aca]  rounded-full justify-center  mt-5 flex text-center hover:bg-[#333333] cursor-pointer'>
                         <p className='text-3xl font-extrabold text-white py-2 max-md:py-1  max-md:px-2 max-lg:text-2xl max-md:text-[20px] max-sm:text-[17px]'>{machine.name}</p>
                     </div>
                 </div>

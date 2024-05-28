@@ -68,13 +68,13 @@ const Header = () => {
                 </div>
 
             </nav>
-            <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 ">
+            <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4  gap-2">
 
                 <div class="flex-1 flex justify-between items-center">
-                    <div className='flex items-center lg:gap-5'>
+                    <div className='flex items-center lg:gap-1'>
 
                         <img src="./logo.png" alt="" className='w-28' />
-                        <p className='text-gray-700 font-bold text-4xl text-center max-lg:text-[15px] max-md:hidden'>Universe Mach Works</p>
+                        <p className='text-[#108aca] font-extrabold text-[44px] text-center max-lg:text-[15px] max-md:hidden'>Universe Mach Works</p>
                     </div>
                     {/* <a href="#" class="text-3xl">Company</a> */}
                 </div>
@@ -104,21 +104,21 @@ const Header = () => {
                                 {productsDropdownOpen && (
                                     <div className='absolute right-[12%] top-36 transform -translate-x-1/2 bg-white shadow-md w-60 text-center' onClick={handleProducts}>
                                         <p
-                                            className='text-[19px] py-2 font-semibold text-yellow-400 hover:bg-[#333333] hover:text-white'
+                                            className='text-[19px] py-2 font-semibold text-[#108aca] hover:bg-[#333333] hover:text-white'
                                             onClick={pharmaMachineClick}      >
                                             Pharmaceutical Machine
                                         </p>
 
                                         <hr />
-                                        <p className='text-[19px] py-2 font-semibold text-yellow-400 hover:bg-[#333333] hover:text-white' onClick={chemicalMachineClick}>
+                                        <p className='text-[19px] py-2 font-semibold text-[#108aca] hover:bg-[#333333] hover:text-white' onClick={chemicalMachineClick}>
                                             Chemical Machine
                                         </p>
                                         <hr />
-                                        <p className='text-[19px] py-2 font-semibold text-yellow-400 hover:bg-[#333333] hover:text-white' onClick={capsuleMachineClick} >
+                                        <p className='text-[19px] py-2 font-semibold text-[#108aca] hover:bg-[#333333] hover:text-white' onClick={capsuleMachineClick} >
                                             Capsule Machine
                                         </p>
                                         <hr />
-                                        <p className='text-[19px] py-2 font-semibold text-yellow-400 hover:bg-[#333333] hover:text-white' onClick={liquidMachineClick}>
+                                        <p className='text-[19px] py-2 font-semibold text-[#108aca] hover:bg-[#333333] hover:text-white' onClick={liquidMachineClick}>
                                             Liquid Machine
                                         </p>
                                         <hr />

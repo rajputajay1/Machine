@@ -7,7 +7,7 @@ const Form = () => {
 
                 <div className="bg-white border-4 rounded-lg shadow relative  mt-20 ">
 
-                    <div className="flex items-center justify-center py-2  rounded text-center bg-yellow-400 ">
+                    <div className="flex items-center justify-center py-2  rounded text-center bg-[#108aca]  text-white">
                         <h3 className="text-3xl text-white-400 font-bold text-center max-md:text-2xl">
                             Get A Quate Today
                         </h3>
@@ -42,7 +42,7 @@ const Form = () => {
                     </div>
 
                     <div className="p-6 border-t border-gray-200 rounded-b">
-                        <button className="text-white bg-yellow-400 hover:bg-[#333333] focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="submit">GET A FREE QUOTE</button>
+                        <button className="text-white bg-[#108aca] hover:bg-[#333333] focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="submit">GET A FREE QUOTE</button>
                     </div>
 
                 </div>

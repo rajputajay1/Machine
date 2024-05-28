@@ -29,22 +29,22 @@ const Machinery = () => {
         {
             title: "Pharmaceutical Machinery",
             description: "Offers machines for injectable production, capsule filling, tablet making & syrup productions.",
-            image: "./m5.jpg"
+            image: "./pharma.jpg"
         },
         {
             title: "Cosmetic Machinery",
             description: "Offer machines for cream manufacturing, filling and capping, tube filling, labeling & cartooning.",
-            image: "./m5.jpg"
+            image: "./cosmetic.jpg"
         },
         {
             title: "Chemical Machinery",
             description: "Offers reactors, vessels, powder mixers, dough mixers, storage tanks, blending vessel & mixing tanks.",
-            image: "./m5.jpg"
+            image: "./chemicalmachine.jpg"
         },
         {
             title: "Nutraceutical Machinery",
             description: "Offers blending, capsule filling, tablet making, counting, bottle filling capping & labeling machines.",
-            image: "./m5.jpg"
+            image: "./neu.jpg"
         }
     ];
     return (
@@ -54,7 +54,7 @@ const Machinery = () => {
                     Machinery for {text}
 
                 </p>
-                <div className='bg-yellow-400 h-1 mt-5 max-lg:mt-3 w-52 mx-auto max-lg:w-40 '></div>
+                <div className='bg-[#108aca] h-1 mt-5 max-lg:mt-3 w-52 mx-auto max-lg:w-40 '></div>
             </div>
             <div>
                 <p className='text-[20px] px-20 py-10 max-lg:text-[18px] max-lg:px-5'>
@@ -64,14 +64,14 @@ const Machinery = () => {
 
             <div className='grid grid-cols-4 gap-10 px-10 max-lg:px-5 max-lg:grid-cols-2 max-md:grid-cols-1' >
                 {machineryItems.map((item, idx) => (
-                    <div key={idx} className="transform rounded-lg bg-yellow-400 transition duration-300 hover:rotate-180">
+                    <div key={idx} className="transform rounded-lg bg-[#108aca] transition duration-300 hover:rotate-180">
                         <div className="flex flex-col justify-center items-center py-10">
                             <div className="h-14 w-14 rounded-full bg-gray-400 flex items-center justify-center">
                                 <IoIosSettings className="text-white size-7" />
                             </div>
                             <div className="text-center pt-6">
-                                <p className="text-2xl font-semibold">{item.title}</p>
-                                <p className="text-[18px] font-semibold text-gray-600 pt-3 px-3">{item.description}</p>
+                                <p className="text-2xl font-bold  text-white">{item.title}</p>
+                                <p className="text-[18px] font-normal  pt-3 px-3  text-white">{item.description}</p>
                             </div>
                         </div>
                         <div>

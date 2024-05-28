@@ -70,8 +70,8 @@ const SliderImage = () => {
             </div>
 
             <div className='relative mb-10'>
-                <div className='bg-[#f8d55f]'>
-                    <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center'>
+                <div className='bg-[#108aca]'>
+                    <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center text-white'>
                         Pharmaceutical Machinery Manufacturer with 120+ Installations Across the Globe
                     </p>
                 </div>

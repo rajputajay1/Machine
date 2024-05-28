@@ -6,8 +6,8 @@ const Contect = () => {
         <>
             <img src="./contect1.jpg" alt=""  className='w-full'/>
             <div className='relative mb-10'>
-                <div className='bg-[#f8d55f]'>
-                    <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center'>
+                <div className='bg-[#108aca]'>
+                    <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center text-white'>
                         Pharmaceutical Machinery Manufacturer with 120+ Installations Across the Globe
                     </p>
                 </div>
@@ -22,7 +22,7 @@ const Contect = () => {
          
             <div className='lg:w-[30%] px-5 mt-5'>
                 <p className='text-4xl font-extrabold max-lg:text-3xl  max-lg:text-center  pb-3'>Corporate Office</p>
-                <div className='bg-yellow-400 h-1 w-10 max-lg:w-28 max-lg:mx-auto'></div>
+                <div className='bg-[#108aca] h-1 w-10 max-lg:w-28 max-lg:mx-auto'></div>
                 <div className='flex gap-5 mt-6 max-lg:text-center  max-lg:flex-col max-lg:justify-center items-center'>
                     <FaHome className='size-20 max-lg:size-8 text-gray-800' />
 
@@ -46,7 +46,7 @@ const Contect = () => {
                         Talk To Us – We’re Here To Help
 
                     </p>
-                    <div className='bg-yellow-400 h-[2px] mt-5 max-lg:mt-3 w-52 mx-auto max-lg:w-40'></div>
+                    <div className='bg-[#108aca] h-[2px] mt-5 max-lg:mt-3 w-52 mx-auto max-lg:w-40'></div>
                 </div>
                 <div class="p-6 space-y-6 mt-5">
                     <form action="#">
@@ -80,7 +80,7 @@ const Contect = () => {
                 </div>
 
                 <div class="p-6 border-t border-gray-200 rounded-b">
-                    <button class="text-black bg-yellow-400  text-nowrap cursor-pointer hover:text-white hover:bg-[#333333]  rounded-lg text-sm px-5 py-2.5 text-center font-bold" type="submit">GET FREE QUOTE</button>
+                    <button class=" bg-[#108aca]  text-nowrap cursor-pointer text-white hover:bg-[#333333]  rounded-lg text-sm px-5 py-2.5 text-center font-bold" type="submit">GET FREE QUOTE</button>
                 </div>
 
 
