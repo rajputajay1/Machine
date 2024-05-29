@@ -18,8 +18,8 @@ const Trusted = () => {
     return (
         <>
             <p className='text-[#333333] text-2xl font-semibold text-center mt-10'>Trusted Partners</p>
-            <div className='pt-10 text-[20px] font-bold text-[#333333] text-center lg:w-[46%] lg:mx-auto px-10 max-md:px-5 '>
-                <p className='text-center'>Our customers spread in more than 45 countries across the world. Below are a few of our satisfied clients.</p>
+            <div className='pt-2 text-[20px] font-bold text-[#333333] text-center  lg:mx-auto px-10 max-md:px-5 '>
+                <p className='text-center'> Below are a few of our satisfied clients.</p>
             </div>
             <div className='grid grid-cols-5 gap-6 max-lg:grid-cols-3 px-10 max-md:grid-cols-2 max-sm:px-5 pt-10'>
                 {partners.map(partner => (
