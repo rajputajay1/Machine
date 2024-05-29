@@ -58,7 +58,7 @@ const Machinery = () => {
             </div>
             <div>
                 <p className='text-[20px] px-20 py-10 max-lg:text-[18px] max-lg:px-5'>
-                    Universe Mach Works International is one of the leading pharmaceutical machinery manufacturer offers turnkey engineering solution to the pharmaceutical industry globally. Universe Mach Works offers cost effective solutions adhering to the latest industrial & regulatory requirements. Universe Mach Works provides engineering services to the Pharmaceutical, Biotech, Cosmetic and Fine Chemicals Industry. Apart from pharmaceutical machinery we also focus on food machinery, chemical machinery, cosmetic machine and customized industrial machinery. We engaged in engineering of various facilities required in pharmaceutical Industry such as Encapsulation, Tablet Granulation, Liquid & Powder Injectables, Dry Syrup Powders etc.
+                    Universe Mach Works is one of the leading  manufacturer offers turnkey engineering solution to the globally. Universe Mach Works offers cost effective solutions adhering to the latest industrial & regulatory requirements. Universe Mach Works provides engineering services to the Pharmaceutical, Biotech, Cosmetic and Fine Chemicals Industry. Apart from pharmaceutical machinery we also focus on food machinery, chemical machinery, cosmetic machine and customized industrial machinery. 
                 </p>
             </div>
 

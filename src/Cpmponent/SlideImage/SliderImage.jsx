@@ -22,8 +22,8 @@ const SliderImage = () => {
         },
         {
             image: './machine1.jpg',
-            title: '6500+ Machine Installation',
-            subtitle: 'Customer Base in 45+ Countries & 900+ Happy Customers',
+            title: '100+ Machine Installation',
+            subtitle: 'Customer Base in 15+ States & 120+ Happy Customers',
         },
     ];
 
@@ -72,7 +72,7 @@ const SliderImage = () => {
             <div className='relative mb-10'>
                 <div className='bg-[#108aca]'>
                     <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center text-white'>
-                        Pharmaceutical Machinery Manufacturer with 120+ Installations Across the Globe
+                        Pharmaceutical Machinery Manufacturer with 120+ Installations Across  India
                     </p>
                 </div>
                 <div className='text-center border-t-2 border-l-2 border-r-2 border-white flex justify-center mx-auto relative cursor-pointer'>
