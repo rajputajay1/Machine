@@ -1,32 +1,20 @@
-import Header from "./Cpmponent/Header/Header"
-import Footer from "./Cpmponent/Footer/Footer"
-import SliderImage from "./Cpmponent/SlideImage/SliderImage"
-import Machinery from "./Cpmponent/Machinary/Machinery"
-import OurProducts from "./Cpmponent/Products/OurProducts"
-import CoreValue from "./Cpmponent/CoreValue/CoreValue"
-import Adhinath from "./Cpmponent/AdhiNath/Adhinath"
-import Trusted from "./Cpmponent/Trusted/Trusted"
-import Productvity from "./Cpmponent/Productvity/Productvity"
-import AboutUs from "./Cpmponent/Aboutus/AboutUs"
-import Contect from "./Cpmponent/Contect/Contect"
-import Mixture from "./Cpmponent/Mixture/Mixture"
-import Turnkkey from "./Cpmponent/Turnkey/Turnkkey"
-import Home from "./Cpmponent/Home/Home"
+import Floating from "./Cpmponent/FloatingLins/Floating"
 import Index from "./Cpmponent/Index"
-import ChemicalMachine from "./Cpmponent/MachineTypes/ChemicalMachine"
-import LiquidMachine from "./Cpmponent/MachineTypes/LiquidMachine"
-import CapsuleMachine from "./Cpmponent/MachineTypes/CapsuleMachine"
-import Pharma from "./Cpmponent/MachineTypes/Pharma"
+
 function App() {
 
   return (
     <>
+      
       {/* <Pharma></Pharma>
       <ChemicalMachine></ChemicalMachine>
       <LiquidMachine></LiquidMachine>
       <CapsuleMachine></CapsuleMachine> */}
-
+      <div>
+      <Floating></Floating>
+        
       <Index></Index>
+</div>
 
     </>
   )
