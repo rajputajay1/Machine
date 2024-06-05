@@ -6,7 +6,7 @@ const Footer = () => {
         <>
 
 
-            <footer className='bg-[#1e1e1e]'>
+            <footer className=''style={{ background: 'linear-gradient(to right, #1E3A8A, #EF4444, 	#7F00FF, #F59E0B)' }}>
                 <div className='grid grid-cols-3  max-lg:grid-cols-1 gap-10 pt-7 px-5'>
 
 
@@ -48,7 +48,9 @@ const Footer = () => {
                     Pharmaceutical Machinery | Ampoule Filling Machine | Vial Filling Machine | Injectable Filling Machine | Capsule Filling Machine | Powder Filling Machines | Pharmaceutical Filling Machines | Pharma Machinery
                 </div>
 
-                <div className='bg-[#111111]  flex h-16 item-center px-20 lg:justify-center mt-10 max-lg:px-10  max-md:px-5  '>
+             
+                <div className='  flex h-16 item-center px-20 lg:justify-center mt-10 max-lg:px-10  max-md:px-5  ' style={{ background: 'linear-gradient(to right, #1E3A8A, #EF4444, 	#7F00FF, #F59E0B)' }}>
+                <hr  className='' />
                     <p className='text-white text-[18px]   max-md:text-[14px] flex  items-center '>
                         Universe Mach Works | ALL RIGHTS RESERVED | POWERED BY Marketing Mingles
                     </p>

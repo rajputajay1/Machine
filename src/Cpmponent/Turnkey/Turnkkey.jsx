@@ -1,25 +1,23 @@
 import React from 'react'
 import Mixture from '../Mixture/Mixture'
+import {motion} from "framer-motion"
+
 const Turnkkey = () => {
     return (
         <>
-            <img src="./turn.jpg" alt="" className='w-full' />
-            <div className='relative mb-10'>
-                <div className='bg-[#108aca]'>
+            <motion.div className=''
+                initial={{ x: -1500, }}
+                animate={{ x: 0 }}
+                transition={{
+                    duration: 2,
 
-                    <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center text-white'>
-                    North India's Leading Machinery Manufacturer with 12000+ Installations across the globe                    </p>
-                </div>
-                <div className='text-center border-t-2 border-l-2 border-r-2 border-white flex justify-center mx-auto relative cursor-pointer'>
-                    <a href="tel:+91 9888885581" target="_blank" rel="noopener noreferrer">
+                }}
+                whileHover={{ scale: 0.9, opacity: 1 }}
+            >
 
+                <img src="./turn.jpg" alt="" className='w-full' />
+            </motion.div>            <Mixture></Mixture>
 
-                        <p className=' hover:text-black hover:bg-white hover:border-2 hover:border-black max-lg:text-[15px]  text-[20px] border-t-2 border-l-2 border-r-2 border-white  font-semibold text-white  bg-[#333333] px-5  py-1 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-sm:px-1'>
-                            GET A FREE QUOTE
-                        </p>
-                    </a>
-                </div>
-            </div>
             <div className='border-box m-3 lg:px-10 max-lg:px-5 pt-5 max-sm:px-2 pb-8'>
                 <p className='mb-3 text-black-500 dark:text-black-400 text-[18px]' >
                     At Universe Mach Works, we specialize in delivering turnkey project solutions that take your industrial projects from concept to completion with unparalleled efficiency and precision. Our turnkey projects are designed to provide you with a seamless and hassle-free experience, ensuring that every aspect of your project is handled by our team of experts.</p>
@@ -31,7 +29,12 @@ const Turnkkey = () => {
                 </h2>
                 <p className='text-[18px] font-semibold pt-5 text-center'>Universe Mach Works offers a wide range of services to ensure the successful execution of your turnkey project:</p>
                 <br />
-                <div className='grid grid-cols-2 gap-5 max-lg:grid-cols-1  mt-5'>
+                <motion.div className='grid grid-cols-2 gap-5 max-lg:grid-cols-1  mt-5'
+                   initial={{ opacity: 0, translateX:  -50,  }}
+                   animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+
+                   transition={{ duration: 1, delay:  0.3 }}
+                >
 
 
                     <div className="relative flex justify-center items-center dark:bg-gray-800 w-full z-10">
@@ -100,13 +103,19 @@ const Turnkkey = () => {
                         </div>
                     </div>
 
-                </div>
+                </motion.div>
 
                 <h2 className='text-3xl font-bold font-sans max-md:text-2xl text-center mt-12' >Industries We Serve
 
                 </h2>
                 <br />
-                <div className='grid grid-cols-4 gap-5 max-lg:grid-cols-2 max-md:grid-cols-1 mt-5'>
+                
+                <motion.div className='grid grid-cols-4 gap-5 max-lg:grid-cols-2 max-md:grid-cols-1 mt-5'
+                       initial={{ opacity: 0, translateX:  50,  }}
+                       animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+    
+                       transition={{ duration: 2, delay:  0.3 }}
+                >
 
 
                     <div className="relative flex justify-center items-center dark:bg-gray-800 w-full z-10">
@@ -162,12 +171,17 @@ const Turnkkey = () => {
                         </div>
                     </div>
 
-                </div>
+                </motion.div>
                 <h2 className='text-3xl font-bold font-sans max-md:text-2xl mt-12 text-center' >Why Choose Universe Mach Works for Your Turnkey Projects?
 
                 </h2>
                 <br />
-                <div className='grid grid-cols-4 gap-5 max-lg:grid-cols-2 max-md:grid-cols-1 mt-5'>
+                <motion.div className='grid grid-cols-4 gap-5 max-lg:grid-cols-2 max-md:grid-cols-1 mt-5'
+                      initial={{ opacity: 0, translateX:  -50,  }}
+                      animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+   
+                      transition={{ duration: 2, delay:  0.3 }}
+                >
 
 
                     <div className="relative flex justify-center items-center dark:bg-gray-800 w-full z-10">
@@ -223,14 +237,19 @@ const Turnkkey = () => {
                         </div>
                     </div>
 
-                </div>
+                </motion.div>
 
 
                 <h2 className='text-3xl font-bold font-sans max-md:text-2xl mt-12   text-center' >Success Stories
 
                 </h2>
                 <br />
-                <div className='grid grid-cols-3 gap-5 max-lg:grid-cols-2 max-md:grid-cols-1 mt-5'>
+                <motion.div className='grid grid-cols-3 gap-5 max-lg:grid-cols-2 max-md:grid-cols-1 mt-5'
+                   initial={{ opacity: 0, translateX:  50,  }}
+                   animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+
+                   transition={{ duration: 2, delay:  0.3 }}
+                >
                     <div className="relative flex justify-center items-center dark:bg-gray-800 w-full z-10">
                         <div className="relative cursor-pointer dark:text-white">
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
@@ -270,7 +289,7 @@ const Turnkkey = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
 
             </div>

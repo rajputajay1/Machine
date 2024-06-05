@@ -3,10 +3,25 @@ import OneStop from './OneStop'
 import Trusted from '../Trusted/Trusted'
 import Form from './Form'
 import Mixture from '../Mixture/Mixture'
+import {motion} from "framer-motion"
+
 const AboutUs = () => {
     return (
         <>
-            <Mixture></Mixture>
+            <div>
+
+
+                <motion.img src="./about.jpg" alt="" className='w-full'
+                    initial={{ x: -1500, }}
+                    animate={{ x: 0 }}
+                    transition={{
+                        duration: 2,
+
+                    }}
+                    whileHover={{ scale: 0.9, opacity: 1 }}
+                />
+                <Mixture></Mixture>
+            </div>
             <div className='text-center pt-8 '>
                 <p className='text-4xl  text-center max-lg:text-2xl font-extrabold '>
                     About Us
@@ -53,7 +68,7 @@ const AboutUs = () => {
 
                 </div>
 
-                <img src="	./about1.jpg" alt="About Us Image" className='rounded-md lg:h-[350px] max-lg:w-full max-lg:h-[250px] ' />
+                <img src="	./about1.jpg" alt="About Us Image" className='rounded-md lg:h-[350px] max-lg:w-full max-lg:h-[250px] hover:scale-110 transition duration-500' />
 
             </div>
             <div className="relative flex justify-center items-center dark:bg-gray-800 w-full z-10   pt-10  lg:px-20  max-lg:px-5">
