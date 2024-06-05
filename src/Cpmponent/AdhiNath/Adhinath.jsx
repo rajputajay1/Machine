@@ -9,7 +9,7 @@ const Adhinath = () => {
     }
     return (
         <>
-            <p className='text-[#333333] text-3xl font-semibold text-center mt-12'>Universe Mach Works s' Blog</p>
+            <p className='text-[#333333] text-3xl font-semibold text-center mt-12 max-lg:px-3'>Universe Mach Works s' Blog</p>
             <div className='pt-10 text-[18px] font-bold text-[#333333] text-center lg:w-[46%] lg:mx-auto px-10 max-md:px-5 '>
                 <p className='text-center'>Explore pharmaceutical machinery resource here, Every article give insight about pharmaceutical production techniques and trends.</p>
 
