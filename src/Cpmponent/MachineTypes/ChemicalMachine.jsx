@@ -37,8 +37,8 @@ const ChemicalMachine = () => {
     ]
     return (
         <>
-            <div>
-                <p className='text-5xl font-extrabold text-[#108aca] text-center max-lg:text-3xl max-md:text-2xl underline  mt-5'>CHEMICAL SECTION</p>
+            <div className='flex justify-center'>
+                <p className='text-5xl font-extrabold text-white px-10 py-2 inline-block text-center max-lg:text-3xl max-md:text-2xl underline bg-blue-500  mt-5'>CHEMICAL SECTION</p>
             </div>
             <div className='grid-cols-2 grid gap-10 max-md:grid-cols-1    px-10 max-lg:px-4 mt-8 pb-20'>
 

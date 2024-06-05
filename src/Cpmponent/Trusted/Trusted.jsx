@@ -17,7 +17,7 @@ const partners = [
 const Trusted = () => {
     return (
         <>
-            <p className='text-[#333333] text-2xl font-semibold text-center mt-10'>Trusted Partners</p>
+            <p className='text-[#333333] text-3xl font-semibold text-center mt-10'>Trusted Partners</p>
             <div className='pt-2 text-[20px] font-bold text-[#333333] text-center  lg:mx-auto px-10 max-md:px-5 '>
                 <p className='text-center'> Below are a few of our satisfied clients.</p>
             </div>

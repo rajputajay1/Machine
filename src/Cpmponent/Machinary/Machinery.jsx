@@ -50,14 +50,14 @@ const Machinery = () => {
     return (
         <>
             <div className='text-center pt-10'>
-                <p className='text-3xl font-normal text-center max-lg:text-[22px] '>
+                <p className='text-3xl font-bold text-center max-lg:text-[22px] '>
                     Machinery for {text}
 
                 </p>
                 <div className='bg-[#108aca] h-1 mt-5 max-lg:mt-3 w-52 mx-auto max-lg:w-40 '></div>
             </div>
             <div>
-                <p className='text-[20px] px-20 py-10 max-lg:text-[18px] max-lg:px-5'>
+                <p className='text-[18px] px-20 py-10 max-lg:text-[18px] max-lg:px-5'>
                     Universe Mach Works is one of the leading  manufacturer offers turnkey engineering solution to the globally. Universe Mach Works offers cost effective solutions adhering to the latest industrial & regulatory requirements. Universe Mach Works provides engineering services to the Pharmaceutical, Biotech, Cosmetic and Fine Chemicals Industry. Apart from pharmaceutical machinery we also focus on food machinery, chemical machinery, cosmetic machine and customized industrial machinery. 
                 </p>
             </div>

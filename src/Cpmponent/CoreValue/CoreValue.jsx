@@ -7,7 +7,7 @@ import { GiFlowerStar } from "react-icons/gi";
 const CoreValue = () => {
     return (
         <>
-            <p className='text-[#333333] text-2xl font-semibold text-center mt-12'>Our Core Value</p>
+            <p className='text-[#333333] text-3xl font-semibold text-center mt-12'>Our Core Value</p>
             
             <div className='grid grid-cols-4 max-md:grid-cols-2 max-md:gap-10 lg:px-20  pt-10'>
 
@@ -17,7 +17,7 @@ const CoreValue = () => {
                     <FaHome className='text-white size-20 max-md:size-12 ' />
 
                 </div>
-                    <p className='text-[20px] text-[#333333] pt-2 pb-5 max-md:text-[17px]'>
+                    <p className='text-[18px] text-[#333333] pt-2 pb-5 max-md:text-[17px]'>
                     Great Services
                   
                 </p>
@@ -29,7 +29,7 @@ const CoreValue = () => {
                     <GiFlowerStar className='text-white size-20 max-md:size-12 ' />
 
                 </div>
-                <p className='text-[20px] text-[#333333] pt-2 pb-5 max-md:text-[17px]'>
+                <p className='text-[18px] text-[#333333] pt-2 pb-5 max-md:text-[17px]'>
                 Highest Standards
                 </p>
                 <div className='h-1 w-10 bg-gray-500 '></div>
@@ -40,7 +40,7 @@ const CoreValue = () => {
                     <BsFillPeopleFill className='text-white size-20 max-md:size-12 ' />
 
                 </div>
-                <p className='text-[20px] text-[#333333] pt-2 pb-5 max-md:text-[17px]'>
+                <p className='text-[18px] text-[#333333] pt-2 pb-5 max-md:text-[17px]'>
                     Professional Team
                 </p>
                 <div className='h-1 w-10 bg-gray-500 '></div>
@@ -51,7 +51,7 @@ const CoreValue = () => {
                     <FaRegLightbulb className='text-white size-20 max-md:size-12' />
 
                 </div>
-                <p className='text-[20px] text-[#333333] pt-2 pb-5 max-md:text-[17px]'>
+                <p className='text-[18px] text-[#333333] pt-2 pb-5 max-md:text-[17px]'>
                     TurnKey Solutions
                 </p>
                 <div className='h-1 w-10 bg-gray-500 '></div>

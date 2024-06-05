@@ -26,8 +26,8 @@ const CapsuleMachine = () => {
     ]
   return (
     <>
-    <div>
-    <p className='text-5xl font-extrabold text-[#108aca] text-center max-lg:text-3xl max-md:text-2xl underline mt-5 '>CAPSULE SECTION</p>
+    <div className='flex justify-center'>
+    <p className='text-5xl font-extrabold px-10 py-2 text-white text-center max-lg:text-3xl max-md:text-2xl underline mt-5 inline-block bg-blue-500 '>CAPSULE SECTION</p>
     </div>
     <div className='grid-cols-2 grid gap-10 max-lg:grid-cols-2 max-md:grid-cols-1  px-10 max-lg:px-4 mt-8 pb-20'>
 

@@ -14,8 +14,10 @@ const OurProducts = () => {
         { id: 4, name: 'REACTION VESSELS', imageUrl: './a4.jpg' },
         { id: 5, name: 'HEAT EXCHANGERS', imageUrl: './c2.png' },
         { id: 6, name: 'RECEIVER TANKS', imageUrl: './tans1.png' },
-        { id: 7, name: 'ROP CAP SEALING', imageUrl: './li2.png' },
-        { id: 8, name: 'Filling Lines', imageUrl: './m6.jpg' },
+        { id: 7, name: 'DOUBLE CONE MIXER ', imageUrl: './ca3.png' },
+      
+        { id: 8, name: 'PRESSURE NAUTCH FILTER', imageUrl: './ch11.png' },
+      
     ];
     const viveAllProduct = () => {
         navigate("/pharma-machine")
@@ -25,7 +27,7 @@ const OurProducts = () => {
 
     return (
         <>
-            <p className='text-[#333333] text-2xl font-semibold text-center  mt-20 max-md:mt-28' >Our Products</p>
+            <p className='text-[#333333] text-3xl font-bold text-center  mt-20 max-md:mt-28' >Our Products</p>
             <div className='grid grid-cols-4 gap-5 max-md:px-5 px-10 pt-10 max-lg:grid-cols-2 max-lg:px-4 max-md:grid-cols-1 max-md:gap-7'>
                 {products.map((product) => (
                     <div key={product.id} className='border'>

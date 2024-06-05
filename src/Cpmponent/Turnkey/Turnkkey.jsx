@@ -6,25 +6,29 @@ const Turnkkey = () => {
             <img src="./turn.jpg" alt="" className='w-full' />
             <div className='relative mb-10'>
                 <div className='bg-[#108aca]'>
-                    
+
                     <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center text-white'>
                         Pharmaceutical Machinery Manufacturer with 120+ Installations Across the Globe
                     </p>
                 </div>
                 <div className='text-center border-t-2 border-l-2 border-r-2 border-white flex justify-center mx-auto relative cursor-pointer'>
-                    <p className=' hover:text-black hover:bg-white hover:border-2 hover:border-black max-lg:text-[15px]  text-[20px] border-t-2 border-l-2 border-r-2 border-white  font-semibold text-white  bg-[#333333] px-5  py-1 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-sm:px-1'>
-                        GET A FREE QUOTE
-                    </p>
+                    <a href="tel:+91 9888885581" target="_blank" rel="noopener noreferrer">
+
+
+                        <p className=' hover:text-black hover:bg-white hover:border-2 hover:border-black max-lg:text-[15px]  text-[20px] border-t-2 border-l-2 border-r-2 border-white  font-semibold text-white  bg-[#333333] px-5  py-1 absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 max-sm:px-1'>
+                            GET A FREE QUOTE
+                        </p>
+                    </a>
                 </div>
             </div>
             <div className='border-box m-3 lg:px-10 max-lg:px-5 pt-5 max-sm:px-2 pb-8'>
-                <p className='mb-3 text-black-500 dark:text-black-400 text-lg' >
+                <p className='mb-3 text-black-500 dark:text-black-400 text-[18px]' >
                     At Universe Mach Works, we specialize in delivering turnkey project solutions that take your industrial projects from concept to completion with unparalleled efficiency and precision. Our turnkey projects are designed to provide you with a seamless and hassle-free experience, ensuring that every aspect of your project is handled by our team of experts.</p>
                 <br />
-                <p className='mb-3 text-black-500 dark:text-black-400 text-lg'>
+                <p className='mb-3 text-black-500 dark:text-black-400 text-[18px]'>
                     A turnkey project is a comprehensive solution where we manage every phase of your project, from initial planning and design to manufacturing, installation, and final commissioning. Our goal is to deliver a fully functional system that is ready for immediate use, allowing you to focus on your core business operations.</p>
 
-                <h2 className='text-3xl font-bold font-sans max-md:text-2xl text-center mt-12' >Our Turnkey Project Services
+                <h2 className='text-3xl font-bold font-sans max-md:text-3xl text-center mt-12' >Our Turnkey Project Services
                 </h2>
                 <p className='text-[18px] font-semibold pt-5 text-center'>Universe Mach Works offers a wide range of services to ensure the successful execution of your turnkey project:</p>
                 <br />
@@ -36,8 +40,8 @@ const Turnkkey = () => {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
                             <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                                 <div className="flex items-center flex-col">
-                                    <p className='text-2xl font-semibold pt-3'>	Project Consultation and Planning</p>
-                                    <p className='text-md px-3 max-md:px-5 py-5'>
+                                    <p className='text-3xl font-semibold pt-3'>	Project Consultation and Planning</p>
+                                    <p className='text-[18px] px-3 max-md:px-5 py-5'>
                                         We begin by understanding your specific requirements and objectives. Our team conducts thorough consultations to gather all necessary information, ensuring that we develop a customized plan that meets your needs.
                                     </p>
                                 </div>
@@ -49,8 +53,8 @@ const Turnkkey = () => {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
                             <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                                 <div className="flex items-center flex-col">
-                                    <p className='text-2xl font-semibold pt-3'>	Design and Engineering</p>
-                                    <p className='text-md px-3 max-md:px-5 py-5'>
+                                    <p className='text-3xl font-semibold pt-3'>	Design and Engineering</p>
+                                    <p className='text-[18px] px-3 max-md:px-5 py-5'>
                                         Our experienced engineers create detailed designs and technical drawings, taking into account all operational, safety, and regulatory requirements. We use advanced design software to ensure precision and accuracy in every detail.
                                     </p>
                                 </div>
@@ -62,8 +66,8 @@ const Turnkkey = () => {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
                             <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                                 <div className="flex items-center flex-col">
-                                    <p className='text-2xl font-semibold pt-3'>Manufacturing and Procurement</p>
-                                    <p className='text-md px-3 py-5 max-md:px-5'>
+                                    <p className='text-3xl font-semibold pt-3'>Manufacturing and Procurement</p>
+                                    <p className='text-[18px] px-3 py-5 max-md:px-5'>
                                         With our state-of-the-art manufacturing facilities, we produce high-quality machinery and components tailored to your project specifications. We also manage the procurement of any additional equipment or materials required, ensuring that everything meets our stringent quality standards.
                                     </p>
                                 </div>
@@ -75,8 +79,8 @@ const Turnkkey = () => {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
                             <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                                 <div className="flex items-center flex-col">
-                                    <p className='text-2xl font-semibold pt-3'>Installation and Commissioning</p>
-                                    <p className='text-md px-3 py-5 max-md:px-5'>
+                                    <p className='text-3xl font-semibold pt-3'>Installation and Commissioning</p>
+                                    <p className='text-[18px] px-3 py-5 max-md:px-5'>
                                         Our skilled technicians handle the installation and commissioning of your machinery and equipment. We ensure that all systems are integrated seamlessly and operate at optimal performance. Our team conducts rigorous testing and quality checks to ensure everything is functioning correctly.
                                     </p>
                                 </div>
@@ -88,8 +92,8 @@ const Turnkkey = () => {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
                             <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                                 <div className="flex items-center flex-col">
-                                    <p className='text-2xl font-semibold pt-3'>Training and Support </p>
-                                    <p className='text-md px-3 py-5 max-md:px-5'>
+                                    <p className='text-3xl font-semibold pt-3'>Training and Support </p>
+                                    <p className='text-[18px] px-3 py-5 max-md:px-5'>
                                         We provide comprehensive training for your staff to ensure they are fully equipped to operate and maintain the new systems. Our ongoing support services include maintenance, troubleshooting, and technical assistance to ensure long-term success.
                                     </p>
                                 </div>

@@ -10,6 +10,7 @@ import ChemicalMachine from './MachineTypes/ChemicalMachine'
 import CapsuleMachine from './MachineTypes/CapsuleMachine'
 import LiquidMachine from './MachineTypes/LiquidMachine'
 import Pharma from './MachineTypes/Pharma'
+import Blogs from './Blogs/Blogs'
 const Index = () => {
     return (
         <>
@@ -24,6 +25,7 @@ const Index = () => {
                     <Route path="/liquid-machine" element={<LiquidMachine />} />
                     <Route path="/chemical-machine" element={<ChemicalMachine />} />
                     <Route path="/pharma-machine" element={<Pharma />} />
+                    <Route path="/blogs" element={<Blogs />} />
                 
             </Routes>
 

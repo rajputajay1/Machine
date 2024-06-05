@@ -1,6 +1,9 @@
 import Floating from "./Cpmponent/FloatingLins/Floating"
 import Index from "./Cpmponent/Index"
 
+
+
+
 function App() {
 
   return (
@@ -11,7 +14,9 @@ function App() {
       <LiquidMachine></LiquidMachine>
       <CapsuleMachine></CapsuleMachine> */}
       <div>
-      <Floating></Floating>
+   
+     
+   <Floating></Floating>
         
       <Index></Index>
 </div>

@@ -12,7 +12,7 @@ const AboutUs = () => {
                     About Us
 
                 </p>
-                <div className='bg-[#108aca] h-[2px] mt-4 max-lg:mt-3 w-40 mx-auto max-lg:w-40 '></div>
+                <div className='bg-[#108aca] h-[2px] mt-2 max-lg:mt-3 w-40 mx-auto max-lg:w-40 '></div>
             </div>
             <div>
 
@@ -25,7 +25,7 @@ const AboutUs = () => {
                             <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200"></span>
                             <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                                 <div className="flex items-center flex-col">
-                                    <p className='text-md px-5 py-3'>
+                                    <p className='text-[18px] px-5 py-3'>
                                         At Universe Mach Works, we pride ourselves on being the premier provider of top-tier machinery for the pharmaceutical, food, cosmetics, and chemical industries. Founded on the principles of quality, reliability, and customer satisfaction, we have grown to become the leading stockists in North India
                                     </p>
                                 </div>
@@ -41,7 +41,7 @@ const AboutUs = () => {
                             <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                                 <div className="flex items-center flex-col">
                                     <p className='text-3xl font-semibold pt-3'>Our Mission</p>
-                                    <p className='text-md px-5 py-3'>
+                                    <p className='text-[18px] px-5 py-3'>
                                         Our mission is to empower businesses with state-of-the-art machinery that enhances productivity and ensures operational efficiency. We are dedicated to providing innovative solutions that meet the unique needs of our clients.
                                     </p>
                                 </div>
@@ -62,7 +62,7 @@ const AboutUs = () => {
                     <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                         <div className="flex items-center flex-col">
                             <p className='text-3xl font-semibold pt-3'>Our Vision</p>
-                            <p className='text-md px-5 py-3'>
+                            <p className='text-[18px] px-5 py-3'>
                                 At Universe Mach Works our vision is to become the leading global provider of innovative and reliable machinery solutions for the pharmaceutical, food, chemical, and cosmetic industries. We aim to revolutionize manufacturing processes by delivering state-of-the-art equipment that enhances productivity, ensures safety, and promotes sustainability.
                                 <br />
                                 <br />
@@ -99,7 +99,7 @@ const AboutUs = () => {
                         <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                             <div className="flex items-center flex-col">
                                 <p className='text-3xl font-semibold pt-3'>Our People</p>
-                                <p className='text-md px-5 py-3'>
+                                <p className='text-[18px] px-5 py-5'>
                                     Our team consists of highly skilled professionals with extensive experience in the machinery industry. From engineers to customer service representatives, everyone at Universe Mach Works is dedicated to providing the best possible experience for our clients.
                                 </p>
                             </div>
@@ -113,7 +113,7 @@ const AboutUs = () => {
                         <div className="relative bg-white dark:bg-gray-800 border-2 border-indigo-500 dark:border-gray-300 rounded-lg hover:scale-105 transition duration-500">
                             <div className="flex items-center flex-col">
                                 <p className='text-3xl font-semibold pt-3'>Leadership Team</p>
-                                <p className='text-md px-5 py-3'>
+                                <p className='text-[17px] px-5 py-2'>
                                     Enterprise grows with great entrepreneur skills. Leaders don’t create followers, they create more leaders. Enduring passion for work and high ethical standards defines our leadership team. Universe Mach Works vision is to be pioneer in engineering field with cost effective solution to the industry. Our vision is to make complex technologies viable and accessible on affordable cost.
                                 </p>
                             </div>
