@@ -8,8 +8,7 @@ const Turnkkey = () => {
                 <div className='bg-[#108aca]'>
 
                     <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center text-white'>
-                        Pharmaceutical Machinery Manufacturer with 120+ Installations Across the Globe
-                    </p>
+                    North India's Leading Machinery Manufacturer with 12000+ Installations across the globe                    </p>
                 </div>
                 <div className='text-center border-t-2 border-l-2 border-r-2 border-white flex justify-center mx-auto relative cursor-pointer'>
                     <a href="tel:+91 9888885581" target="_blank" rel="noopener noreferrer">

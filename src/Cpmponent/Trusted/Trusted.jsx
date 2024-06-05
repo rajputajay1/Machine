@@ -29,7 +29,7 @@ const Trusted = () => {
                     initial={{ opacity: 0 ,translateX: i%2===0?-50:50, translateY: -50 }}
                     animate={{ opacity: 1,translateX:0 ,translateY:0 }}
                    
-                    transition={{ duration: 0.3,delay:i*0.3 }}
+                    transition={{ duration: 1,delay:i*0.3 }}
                     >
                         <div className='relative cursor-pointer dark:text-white'>
                             <span className='absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg dark:bg-gray-200'></span>

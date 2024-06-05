@@ -66,19 +66,19 @@ const Header = () => {
                     <div className='flex gap-4'>
 
 
-                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"className='hover:scale-125 transition duration-500'>
                             <img src="./youtube.svg" alt="YouTube" className='h-9' />
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=61559659838540&mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/profile.php?id=61559659838540&mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noopener noreferrer"className='hover:scale-125 transition duration-500'>
                             <img src="./facebook.svg" alt="Facebook" className='h-9' />
                         </a>
-                        <a href="https://www.instagram.com/universemachworks?igsh=MTBuNmVoNmQya3hhZA==" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/universemachworks?igsh=MTBuNmVoNmQya3hhZA==" target="_blank" rel="noopener noreferrer"className='hover:scale-125 transition duration-500'>
                             <img src="./insta.svg" alt="Instagram" className='h-9' />
                         </a>
                     </div>
                     <div className='flex gap-10'>
-                        <p className='text-black text-[20px]'>+91-9888885581</p>
-                        <p className='text-black text-[20px]'>universemachworks@gmail.com</p>
+                        <p className='text-black text-[20px] hover:scale-125 transition duration-500 hover:text-blue-500 cursor-pointer'>+91-9888885581</p>
+                        <p className='text-black text-[20px]  hover:scale-125 transition duration-500 hover:text-blue-500 cursor-pointer'>universemachworks@gmail.com</p>
                     </div>
                 </div>
             </nav>
@@ -86,8 +86,8 @@ const Header = () => {
             <header className="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 gap-2">
                 <div className="flex-1 flex justify-between items-center">
                     <div className='flex items-center lg:gap-1'>
-                        <img src="./logo.png" alt="" className='w-28' />
-                        <p className='text-[#108aca] font-extrabold text-[40px] text-center max-lg:text-[25px] max-xl:text-[20px] text-nowrap max-md:hidden'>Universe Mach Works</p>
+                        <img src="./logo.png" alt="" className='w-28 cursor-pointer  hover:scale-125 transition duration-500' />
+                        <p className='text-[#108aca] font-extrabold text-[40px] text-center max-lg:text-[25px] max-xl:text-[20px] cursor-pointer  hover:scale-110 transition duration-500 text-nowrap max-md:hidden'>Universe Mach Works</p>
                     </div>
                 </div>
 
@@ -101,10 +101,10 @@ const Header = () => {
                 <div className={`lg:flex lg:items-center lg:w-auto w-full ${menuOpen ? 'block' : 'hidden'}`} id="menu">
                     <nav>
                         <ul className="lg:flex items-center justify-between text-[18px] gap-6 text-gray-700 pt-4 md:pt-0 cursor-pointer">
-                            <li className={`cursor-pointer ${selectedItem === 0 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={homeClick}>HOME</li>
-                            <li className={`cursor-pointer ${selectedItem === 1 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={aboutClick}>ABOUT</li>
+                            <li className={`cursor-pointer  hover:scale-125 transition duration-500 ${selectedItem === 0 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={homeClick}>HOME</li>
+                            <li className={`cursor-pointer hover:scale-125 transition duration-500  ${selectedItem === 1 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={aboutClick}>ABOUT</li>
 
-                            <li className={`relative cursor-pointer ${selectedItem === 2 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={handleProducts}>
+                            <li className={`relative cursor-pointer  hover:scale-125 transition duration-500 ${selectedItem === 2 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={handleProducts}>
                                 <span>PRODUCTS</span>
                                 {productsDropdownOpen && (
                                     <ul className='absolute mt-2 bg-white shadow-md w-60 text-center lg:right-0 lg:transform lg:translate-x-1/2 lg:top-8'>
@@ -116,8 +116,8 @@ const Header = () => {
                                 )}
                             </li>
 
-                            <li className={`cursor-pointer ${selectedItem === 3 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={turnKeyClick}>TURNKEY-PROJECTS</li>
-                            <li className={`cursor-pointer ${selectedItem === 4 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={contactClick}>CONTACT US</li>
+                            <li className={`cursor-pointer hover:scale-125 transition duration-500 ${selectedItem === 3 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={turnKeyClick}>TURNKEY-PROJECTS</li>
+                            <li className={`cursor-pointer hover:scale-125 transition duration-500 ${selectedItem === 4 ? 'text-blue-600' : ''} hover:text-blue-600`} onClick={contactClick}>CONTACT US</li>
                         </ul>
                     </nav>
                 </div>

@@ -29,7 +29,8 @@ const Index = () => {
                 
             </Routes>
 
-            <Footer />
+            {/* <Footer /> */}
+
             
             
         </>

@@ -1,15 +1,17 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { motion } from "framer-motion"
+
 const Adhinath = () => {
     const navigae = useNavigate()
 
-   const  handleBlogs = () => {
+    const handleBlogs = () => {
         navigae("/blogs")
         window.scrollTo(0, 0);
     }
     return (
         <>
-            <p className='text-[#333333] text-3xl font-semibold text-center mt-12 max-lg:px-3'>Universe Mach Works s' Blog</p>
+            <p className='text-[#333333] text-3xl font-semibold text-center mt-12 max-lg:px-3'>Universe Mach Works's Blog</p>
             <div className='pt-10 text-[18px] font-bold text-[#333333] text-center lg:w-[46%] lg:mx-auto px-10 max-md:px-5 '>
                 <p className='text-center'>Explore pharmaceutical machinery resource here, Every article give insight about pharmaceutical production techniques and trends.</p>
 
@@ -20,11 +22,17 @@ const Adhinath = () => {
 
                 <div
                     class="shadow-md border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-                    <img src="./adhinath2.jpg" class="w-full mb-3 h-[220px]" />
+                    <motion.img src="./adhinath2.jpg" class="w-full mb-3 h-[220px]"
+                      
+
+
+                    />
                     <div class="p-4 pt-2">
                         <div class="mb-8">
-                            <p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]">
-                                Upscale Your Business with Universe Mach Works International</p>
+                            <motion.p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px] cursor-pointer"
+                              whileHover={{ scale: 0.94, opacity: 1 }}
+                            >
+                                Upscale Your Business with Universe Mach Works International</motion.p>
                             <p class="text-sm text-gray-600 flex items-center">
 
                                 April 22nd, 2024
@@ -41,8 +49,10 @@ const Adhinath = () => {
                     <img src="./a1.jpg" class="w-full mb-3 h-[220px]" />
                     <div class="p-4 pt-2">
                         <div class="mb-14">
-                            <p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]">
-                                Beginners Guide for Capsule Filling Machines</p>
+                            <motion.p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px] cursor-pointer"
+                               whileHover={{ scale: 0.94, opacity: 1 }}
+                            >
+                                Beginners Guide for Capsule Filling Machines</motion.p>
                             <p class="text-sm text-gray-600 flex items-center">
 
                                 April 21st, 2023
@@ -56,11 +66,13 @@ const Adhinath = () => {
                 </div>
                 <div
                     class="shadow-md border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-                    <img src="./16.jpg" class="w-full h-[220px] mb-3 " />
+                    <img src="./star.jpg" class="w-full h-[220px] mb-3 " />
                     <div class="p-4 pt-2">
                         <div class="mb-8">
-                            <p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]">
-                                Comprehensive Guide for Granulation Equipments</p>
+                            <motion.p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]  cursor-pointer"
+                               whileHover={{ scale: 0.94, opacity: 1 }}
+                            >
+                                Comprehensive Guide for Granulation Equipments</motion.p>
                             <p class="text-sm text-gray-600 flex items-center">
 
                                 April 22nd, 2023

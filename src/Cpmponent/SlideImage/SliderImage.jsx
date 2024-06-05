@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {motion} from "framer-motion"
 
 const SliderImage = () => {
     const [index, setIndex] = useState(0);
@@ -51,31 +52,74 @@ const SliderImage = () => {
     return (
         <>
 
-            <div className="h-screen bg-cover  flex items-center justify-center flex-col gap-5  pt-8" style={{ backgroundImage: `url(${slides[index].image})` }}>
+            <motion.div className="h-screen bg-cover  flex items-center justify-center flex-col gap-5  pt-8" style={{ backgroundImage: `url(${slides[index].image})` }}
+            //    initial={{ x: -1500,}} 
+            //    animate={{ x: 0 }}      
+            //    transition={{
+            //      duration: 0.8,
+              
+            //    }}
+            >
                 <div className='px-3'>
 
 
-                    <div className={`bg-[#66544a] lg:px-10 max-lg:px-3 items-center justify-center lg:py-2 rounded-md  transition-opacity duration-500 ease-in-out ${isAnimating ? 'opacity-0' : 'opacity-100'}`}>
+                    <motion.div className={`bg-[#66544a] lg:px-10 max-lg:px-3 items-center justify-center lg:py-2 rounded-md   cursor-pointer     transition-opacity duration-500 ease-in-out ${isAnimating ? 'opacity-0' : 'opacity-100'}`}
+                      initial={{ x: -1000 }}
+                      animate={{ x: [1000, 0] }}
+                      transition={{
+                          duration: 3,
+                       
+                      }}
+                      whileHover={{scale:0.9, opacity:1}}
+                    >
                         <h1 className="text-3xl font-normal pb-1 text-white  max-lg:text-[18px]">{slides[index].title}</h1>
-                    </div>
+                    </motion.div>
                 </div>
-                <div className='px-3'>
+                <div className='px-3'
+                    
+                >
 
 
-                    <div className={`bg-[#f8d55f] px-10  max-lg:px-3 items-center justify-center  lg:py-2 rounded-md transition-opacity duration-500 ease-in-out ${isAnimating ? 'opacity-0' : 'opacity-100'}`}>
+
+                    <motion.div className={`bg-[#f8d55f] px-10  max-lg:px-3 items-center justify-center  lg:py-2 rounded-md transition-opacity cursor-pointer  duration-500 ease-in-out ${isAnimating ? 'opacity-0' : 'opacity-100'}`}
+                     initial={{ x: -1500,}} 
+                     animate={{ x: 0 }}      
+                     transition={{
+                       duration: 3,
+                    
+                     }}
+                      whileHover={{scale:0.9, opacity:1}}
+                    >
                         <h1 className="text-3xl font-normal pb-1 text-black  max-lg:text-[18px]">{slides[index].subtitle}</h1>
-                    </div>
+                    </motion.div>
                 </div>
 
-            </div>
+            </motion.div>
 
             <div className='relative mb-10'>
                 <div className='bg-[#108aca]'>
-                    <p className='text-3xl max-lg:text-[18px] py-9 text-center items-center text-white'>
-                        Pharmaceutical Machinery Manufacturer with 12000+ Installations Across  Globe
-                    </p>
+                    <motion.p className='text-3xl max-lg:text-[18px] py-9 text-center items-center text-white  cursor-pointer'
+                      initial={{ x: -1500,}} 
+                      animate={{ x: 0 }}      
+                      transition={{
+                        duration: 3,
+                      
+                      }}
+                       whileHover={{scale:0.9, opacity:1}}
+                    
+                    >
+
+                    North India's Leading Machinery Manufacturer with 12000+ Installations across the globe                    </motion.p>
                 </div>
-                <div className='text-center border-t-2 border-l-2 border-r-2 border-white flex justify-center mx-auto relative cursor-pointer'>
+                <motion.div className='text-center border-t-2 border-l-2 border-r-2 border-white flex justify-center mx-auto relative cursor-pointer'
+                   initial={{ x: -1000 }}
+                   animate={{ x: [1000, 0] }}
+                   transition={{
+                       duration: 3,
+                
+                   }}
+                   whileHover={{scale:0.9, opacity:1}}
+                >
                     <a href="tel:+91 9888885581" target="_blank" rel="noopener noreferrer">
 
 
@@ -83,7 +127,7 @@ const SliderImage = () => {
                             GET A FREE QUOTE
                         </p>
                     </a>
-                </div>
+                </motion.div>
             </div>
 
 

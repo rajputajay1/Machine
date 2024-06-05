@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { IoIosSettings } from "react-icons/io";
+import {motion} from "framer-motion"
 
 const Machinery = () => {
     const texts = [
@@ -50,10 +51,18 @@ const Machinery = () => {
     return (
         <>
             <div className='text-center pt-10'>
-                <p className='text-3xl font-bold text-center max-lg:text-[22px] '>
+                <motion.p className='text-3xl font-bold text-center max-lg:text-[22px] cursor-pointer'
+                   initial={{ x: -1000 }}
+                   animate={{ x: [1000, 0] }}
+                   transition={{
+                       duration: 3,
+                
+                   }}
+                   whileHover={{scale:0.9, opacity:1}}
+                >
                     Machinery for {text}
 
-                </p>
+                </motion.p>
                 <div className='bg-[#108aca] h-1 mt-5 max-lg:mt-3 w-52 mx-auto max-lg:w-40 '></div>
             </div>
             <div>
