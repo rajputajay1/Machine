@@ -66,7 +66,7 @@ const Adhinath = () => {
                 </div>
                 <div
                     class="shadow-md border-gray-400 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-                    <img src="./star.jpg" class="w-full h-[220px] mb-3 " />
+                    <img src="./star.jpg" class="w-full h-[220px] mb-3 mx-auto   " />
                     <div class="p-4 pt-2">
                         <div class="mb-8">
                             <motion.p class="text-gray-900 font-bold text-2xl mb-2 inline-block hover:text-yellow-400 max-md:text-[18px]  cursor-pointer"
