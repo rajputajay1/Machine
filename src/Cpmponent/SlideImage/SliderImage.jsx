@@ -8,24 +8,24 @@ const SliderImage = () => {
 
     const slides = [
         {
-            image: './m4.jpg',
+            image: './slide1.jpg',
             title: 'Innovative Manufacturer',
             subtitle: 'Machinery for Pharmaceutical, Cosmetic, Chemical & Food Industry',
         },
         {
-            image: './m2.jpg',
+            image: './slide6.jpg',
             title: 'Complete Filling Lines',
             subtitle: 'Mixing, filling, Capping,Labeling & Allied Equipment',
         },
         {
-            image: './m5.jpg',
+            image: './slide8.jpg',
             title: 'Production Plants',
             subtitle: 'Integrated Process Plants for Industrial Applications',
         },
         {
-            image: './machine1.jpg',
-            title: '100+ Machine Installation',
-            subtitle: 'Customer Base in 15+ States & 120+ Happy Customers',
+            image: './slide7.jpg',
+            title: '10,000+ Machine Installation',
+            subtitle: 'Customer Base in 15+ Countries & 50+ Happy Customers',
         },
     ];
 
@@ -53,7 +53,7 @@ const SliderImage = () => {
     return (
         <>
 
-            <motion.div className="h-screen bg-cover  flex items-center justify-center flex-col gap-5  pt-8" style={{ backgroundImage: `url(${slides[index].image})` }}
+            <motion.div className="h-screen bg-cover w-full flex items-center justify-center flex-col gap-5 pt-8" style={{ backgroundImage: `url(${slides[index].image})` }}
             //    initial={{ x: -1500,}} 
             //    animate={{ x: 0 }}      
             //    transition={{
@@ -64,7 +64,7 @@ const SliderImage = () => {
                 <div className='px-3'>
 
 
-                    <motion.div className={`bg-[#1E3A8A] lg:px-10 max-lg:px-3 items-center justify-center lg:py-2 rounded-md   cursor-pointer      ${isAnimating ? 'opacity-0' : 'opacity-100'}`}
+                    <motion.div className={`bg-[#1E3A8A] lg:px-10 max-lg:px-3 items-center justify-center lg:py-2 rounded-md   cursor-pointer   `}
                         initial={{ x: -1000 }}
                         animate={{ x: [1000, 0] }}
                         transition={{
@@ -78,7 +78,7 @@ const SliderImage = () => {
                 </div>
                 <div className='px-3'
                 >
-                    <motion.div className={`bg-[#EF4444] px-10  max-lg:px-3 items-center justify-center  lg:py-2 rounded-md  cursor-pointer   ${isAnimating ? 'opacity-1' : 'opacity-100'}`}
+                    <motion.div className={`bg-[#EF4444] px-10  max-lg:px-3 items-center justify-center  lg:py-2 rounded-md  cursor-pointer  `}
                         initial={{ x: -1500, }}
                         animate={{ x: 0 }}
                         transition={{

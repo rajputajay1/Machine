@@ -6,9 +6,8 @@ const Footer = () => {
         <>
 
 
-            <footer className=''style={{ background: 'linear-gradient(to right, #1E3A8A, #EF4444, 	#7F00FF, #F59E0B)' }}>
+            <footer className=''style={{ background: 'linear-gradient(to right, #1E3A8A, 	#EF4444, #1E3A8A)' }}>
                 <div className='grid grid-cols-3  max-lg:grid-cols-1 gap-10 pt-7 px-5'>
-
 
                     <div className='  flex  items-center flex-col'>
                         <img src="./logo.png " alt="" className='w-28 hover:scale-125 transition duration-500' />
@@ -50,7 +49,7 @@ const Footer = () => {
                 </div>
 
              
-                <div className='  flex h-16 item-center px-20 lg:justify-center mt-10 max-lg:px-10  max-md:px-5  ' style={{ background: 'linear-gradient(to right, #1E3A8A, #EF4444, 	#7F00FF, #F59E0B)' }}>
+                <div className='  flex h-16 item-center px-20 lg:justify-center mt-10 max-lg:px-10  max-md:px-5  ' style={{ background: 'linear-gradient(to right,  #1E3A8A, 	#EF4444, #1E3A8A)' }}>
                 <hr  className='' />
                     <p className='text-white text-[18px]   max-md:text-[14px] flex  items-center '>
                         Universe Mach Works | ALL RIGHTS RESERVED | POWERED BY Marketing Mingles

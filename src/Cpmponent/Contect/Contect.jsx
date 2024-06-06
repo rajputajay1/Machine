@@ -1,13 +1,13 @@
 import React from 'react'
 import { FaGlobe, FaHome, FaPhone, FaMobile, FaEnvelope } from 'react-icons/fa'
 import Mixture from '../Mixture/Mixture'
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
 
 
 const Contect = () => {
     return (
         <>
-            <motion.div 
+            <motion.div
                 initial={{ x: -1500, }}
                 animate={{ x: 0 }}
                 transition={{
@@ -18,7 +18,8 @@ const Contect = () => {
             >
 
                 <img src="./contect1.jpg" alt="" className='w-full' />
-            </motion.div>            <Mixture></Mixture>
+            </motion.div>
+            <Mixture></Mixture>
 
             <div className='flex mt-10 max-lg:flex-col'>
 
@@ -40,6 +41,13 @@ const Contect = () => {
                         <FaEnvelope className='size-8 text-gray-800' />
 
                         <p className='text-gray-800 font-semibold text-[18px]'>universemachworks@gmail.com</p>
+                    </div>
+                    <div   className='mt-5  rounded-md'>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.6423259658613!2d76.85352287607115!3d30.58764089262946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fbf001c7b5399%3A0x28fc8aff935c3063!2sHansa%20Industrial%20Park%20Barwala%20Road%20Dera%20Bassi%20Mohali%20Punjab%20India.!5e0!3m2!1sen!2sin!4v1717665385464!5m2!1sen!2sin"  width="100%"
+                            height="350"
+                            style={{ border: 0,borderRadius:10 }}
+                            allowFullScreen=""
+                            loading="lazy"referrerpolicy="no-referrer-when-downgrade" className='my-3 mx-2 rounded-xl '></iframe>
                     </div>
                 </div>
 
