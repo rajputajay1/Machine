@@ -24,7 +24,7 @@ const Contect = () => {
             <div className='flex mt-10 max-lg:flex-col'>
 
 
-                <div className='lg:w-[30%] px-5 mt-5'>
+                <div className='lg:w-[30%]  px-10 mt-5'>
                     <p className='text-4xl font-extrabold max-lg:text-3xl  max-lg:text-center  pb-3'>Corporate Office</p>
                     <div className='bg-[#108aca] h-1 w-10 max-lg:w-28 max-lg:mx-auto'></div>
                     <div className='flex gap-5 mt-6 max-lg:text-center  max-lg:flex-col max-lg:justify-center items-center'>
@@ -42,12 +42,13 @@ const Contect = () => {
 
                         <p className='text-gray-800 font-semibold text-[18px]'>universemachworks@gmail.com</p>
                     </div>
-                    <div   className='mt-5  rounded-md'>
+                    <div   className='mt-5  rounded-md pr-3'>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.6423259658613!2d76.85352287607115!3d30.58764089262946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fbf001c7b5399%3A0x28fc8aff935c3063!2sHansa%20Industrial%20Park%20Barwala%20Road%20Dera%20Bassi%20Mohali%20Punjab%20India.!5e0!3m2!1sen!2sin!4v1717665385464!5m2!1sen!2sin"  width="100%"
                             height="350"
                             style={{ border: 0,borderRadius:10 }}
                             allowFullScreen=""
-                            loading="lazy"referrerpolicy="no-referrer-when-downgrade" className='my-3 mx-2 rounded-xl '></iframe>
+                           
+                            loading="lazy"referrerpolicy="no-referrer-when-downgrade" className='my-3 mx-2 rounded-xl  '></iframe>
                     </div>
                 </div>
 
