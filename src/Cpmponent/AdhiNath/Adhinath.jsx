@@ -17,7 +17,14 @@ const Adhinath = () => {
 
             </div>
 
-            <div className='grid grid-cols-3 mt-8 gap-10 lg:px-20 max-lg:px-10 max-md:px-5 max-md:grid-cols-1 max-lg:grid-cols-2'>
+            <motion.div className='grid grid-cols-3 mt-8 gap-10 lg:px-20 max-lg:px-10 max-md:px-5 max-md:grid-cols-1 max-lg:grid-cols-2'
+            
+                
+            initial={{ opacity: 0, translateX:  -50, translateY: -50 }}
+            animate={{ opacity: 1, translateX: 0, translateY: 0 }}
+
+            transition={{ duration: 1, delay: 0.3 }}
+            >
 
 
                 <div
@@ -86,7 +93,7 @@ const Adhinath = () => {
                 </div>
 
 
-            </div>
+            </motion.div>
             <div className='flex justify-center pt-20 '>
                 <p className='text-2xl font-semibold text-white bg-[#108aca] py-2 text-center cursor-pointer  hover:bg-[#333333]  px-14 ' onClick={handleBlogs}>View All Blogs</p>
             </div>

@@ -16,7 +16,7 @@ const Pharma = () => {
         },
         {
             name: "COLLOID MILL",
-            image: "./px4.png"
+            image: "./coll.jpg"
         },
         {
             name: "MULTI MILL ",
@@ -31,7 +31,7 @@ const Pharma = () => {
             image: "./px7.png"
         },
         {
-            name: "BLENDERS",
+            name: "OCTAGONAL  BLENDERS",
             image: "./px8.png"
         },
     ]

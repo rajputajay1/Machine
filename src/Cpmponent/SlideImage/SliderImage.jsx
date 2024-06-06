@@ -64,7 +64,7 @@ const SliderImage = () => {
                 <div className='px-3'>
 
 
-                    <motion.div className={`bg-[#66544a] lg:px-10 max-lg:px-3 items-center justify-center lg:py-2 rounded-md   cursor-pointer     transition-opacity duration-500 ease-in-out ${isAnimating ? 'opacity-0' : 'opacity-100'}`}
+                    <motion.div className={`bg-[#1E3A8A] lg:px-10 max-lg:px-3 items-center justify-center lg:py-2 rounded-md   cursor-pointer      ${isAnimating ? 'opacity-0' : 'opacity-100'}`}
                         initial={{ x: -1000 }}
                         animate={{ x: [1000, 0] }}
                         transition={{
@@ -73,12 +73,12 @@ const SliderImage = () => {
                         }}
                         whileHover={{ scale: 0.9, opacity: 1 }}
                     >
-                        <h1 className="text-3xl font-normal pb-1 text-white  max-lg:text-[18px]">{slides[index].title}</h1>
+                        <h1 className="text-3xl font-bold pb-1 text-white  max-lg:text-[18px]">{slides[index].title}</h1>
                     </motion.div>
                 </div>
                 <div className='px-3'
                 >
-                    <motion.div className={`bg-[#f8d55f] px-10  max-lg:px-3 items-center justify-center  lg:py-2 rounded-md transition-opacity cursor-pointer  duration-500 ease-in-out ${isAnimating ? 'opacity-0' : 'opacity-100'}`}
+                    <motion.div className={`bg-[#EF4444] px-10  max-lg:px-3 items-center justify-center  lg:py-2 rounded-md  cursor-pointer   ${isAnimating ? 'opacity-1' : 'opacity-100'}`}
                         initial={{ x: -1500, }}
                         animate={{ x: 0 }}
                         transition={{
@@ -87,7 +87,7 @@ const SliderImage = () => {
                         }}
                         whileHover={{ scale: 0.9, opacity: 1 }}
                     >
-                        <h1 className="text-3xl font-normal pb-1 text-black  max-lg:text-[18px]">{slides[index].subtitle}</h1>
+                        <h1 className="text-3xl font-bold text-white pb-1   max-lg:text-[18px]">{slides[index].subtitle}</h1>
                     </motion.div>
                 </div>
 

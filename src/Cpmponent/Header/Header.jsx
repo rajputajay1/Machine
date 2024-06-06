@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Icons from './Icons';
+import { FaGlobe, FaHome, FaPhone, FaMobile, FaEnvelope } from 'react-icons/fa'
+
 
 const Header = () => {
     const navigate = useNavigate();
@@ -63,8 +64,8 @@ const Header = () => {
     };
     const sideBarclose = (sidebar) => {
         setSidebarOpen(false)
-       
-   }
+
+    }
 
     return (
         <>
@@ -78,12 +79,19 @@ const Header = () => {
                             <img src="./facebook.svg" alt="Facebook" className='h-9' />
                         </a>
                         <a href="https://www.instagram.com/universemachworks?igsh=MTBuNmVoNmQya3hhZA==" target="_blank" rel="noopener noreferrer" className='hover:scale-125 transition duration-500'>
-                            <img src="./insta.svg" alt="Instagram" className='h-9' />
+                            <img src="./in.png" alt="Instagram" className='h-9' />
                         </a>
                     </div>
                     <div className='flex gap-10'>
-                        <p className='text-black text-[20px] hover:scale-125 transition duration-500 hover:text-blue-500 cursor-pointer'>+91-9888885581</p>
-                        <p className='text-black text-[20px] hover:scale-125 transition duration-500 hover:text-blue-500 cursor-pointer'>universemachworks@gmail.com</p>
+                        <div className='flex items-center gap-2'>
+                            <img src="./ph.svg" alt="Phone" className="w-6 h-6 " />
+                            <p className='text-black text-[20px] hover:scale-110 transition duration-500 hover:text-blue-500 cursor-pointer'>    +91-9888885581</p>
+                        </div>
+
+                        <div className='flex items-center gap-2'>
+                            <img src="./mail.svg" alt="Mail" className="w-6 h-6" />
+                            <p className='text-black text-[20px] hover:scale-110 transition duration-500 hover:text-blue-500 cursor-pointer'>universemachworks@gmail.com</p>
+                        </div>
                     </div>
                 </div>
             </nav>

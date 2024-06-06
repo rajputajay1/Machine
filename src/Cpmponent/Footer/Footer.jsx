@@ -45,7 +45,8 @@ const Footer = () => {
 
                 </div>
                 <div className="px-20 text-white text-[18px] font-semibold pt-5 max-lg:px-10  max-md:px-5 max-lg:text-[14px] ">
-                    Pharmaceutical Machinery | Ampoule Filling Machine | Vial Filling Machine | Injectable Filling Machine | Capsule Filling Machine | Powder Filling Machines | Pharmaceutical Filling Machines | Pharma Machinery
+                  
+                    Granulation | Pharma machines | Capsule section | Liquid section | Chemical section | Ointment section
                 </div>
 
              
