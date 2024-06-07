@@ -8,22 +8,22 @@ const SliderImage = () => {
 
     const slides = [
         {
-            image: './slide1.jpg',
+            image: './slide10.jpg',
             title: 'Innovative Manufacturer',
             subtitle: 'Machinery for Pharmaceutical, Cosmetic, Chemical & Food Industry',
         },
         {
-            image: './slide6.jpg',
+            image: './slide11.jpg',
             title: 'Complete Filling Lines',
             subtitle: 'Mixing, filling, Capping,Labeling & Allied Equipment',
         },
         {
-            image: './slide8.jpg',
+            image: './slide14.jpg',
             title: 'Production Plants',
             subtitle: 'Integrated Process Plants for Industrial Applications',
         },
         {
-            image: './slide7.jpg',
+            image: './slide12.png',
             title: '10,000+ Machine Installation',
             subtitle: 'Customer Base in 15+ Countries & 50+ Happy Customers',
         },
