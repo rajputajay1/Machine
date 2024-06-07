@@ -45,7 +45,8 @@ const Footer = () => {
                 </div>
                 <div className="px-20 text-white text-[18px] font-semibold pt-5 max-lg:px-10  max-md:px-5 max-lg:text-[14px] ">
                   
-                    Granulation | Pharma machines | Capsule section | Liquid section | Chemical section | Ointment section
+                    Granulation | Pharma machines | Capsule section | Liquid section | Chemical section | Ointment section |
+                    Syrup Machines
                 </div>
 
              

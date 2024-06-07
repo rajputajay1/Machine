@@ -25,7 +25,7 @@ const SliderImage = () => {
         {
             image: './slide12.png',
             title: '10,000+ Machine Installation',
-            subtitle: 'Customer Base in 15+ Countries & 50+ Happy Customers',
+            subtitle: 'Customer Base in 15+ Countries & 1500+ Happy Customers',
         },
     ];
 
