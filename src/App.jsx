@@ -7,18 +7,15 @@ function App() {
 
   return (
     <>
-      
-      {/* <Pharma></Pharma>
-      <ChemicalMachine></ChemicalMachine>
-      <LiquidMachine></LiquidMachine>
-      <CapsuleMachine></CapsuleMachine> */}
+
+
       <div>
-   
-     
-   <Floating></Floating>
-        
-      <Index></Index>
-</div>
+
+
+        <Floating></Floating>
+
+        <Index></Index>
+      </div>
 
     </>
   )

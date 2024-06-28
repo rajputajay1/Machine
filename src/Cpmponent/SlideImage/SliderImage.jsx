@@ -53,7 +53,7 @@ const SliderImage = () => {
     return (
         <>
 
-            <motion.div className="h-screen bg-cover w-full flex items-center justify-center flex-col gap-5 pt-8" style={{ backgroundImage: `url(${slides[index].image})` }}
+            <motion.div className=" lg:h-screen bg-cover w-full flex items-center justify-center flex-col gap-5 pt-8 max-lg:h-[400px]" style={{ backgroundImage: `url(${slides[index].image})` }}
             //    initial={{ x: -1500,}} 
             //    animate={{ x: 0 }}      
             //    transition={{

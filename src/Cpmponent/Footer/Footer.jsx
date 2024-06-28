@@ -6,7 +6,7 @@ const Footer = () => {
         <>
 
 
-            <footer className='bg-cover' style={{ backgroundImage: 'url(./back.jpg)' }}>
+            <footer className='bg-cover' style={{ backgroundImage: 'url(./back1.jpg)' }}>
                 <div className='grid grid-cols-3  max-lg:grid-cols-1 gap-10 pt-7 px-5'>
 
                     <div className='  flex  items-center flex-col'>
@@ -27,16 +27,16 @@ const Footer = () => {
                             <FaEnvelope className='text-white size-10 max-md:size-12 ' />
 
                         </div>
-                        
+
                         <p className='text-white font-bold text-3xl pt-5 max-lg:text-[18px] text-center px-5'>universemachworks@gmail.com
                         </p>
                     </div>
                 </div>
                 <div className='  text-center  mt-10 px-10  lg:w-[40%]  flex justify-center flex-col items-center m-auto'>
-                           
-                           <p className='text-3xl font-bold text-white'>Address</p>
-                       <p className='text-white font-bold text-[18px] pt-2  max-lg:text-[14px]' >Plot Number 303 A, Barwala Road, Hansa Industrial Park , Derabassi , S.A.S. Nagar , Distt. Mohali (Punjab)-140507</p>
-                   </div>
+
+                    <p className='text-3xl font-bold text-white'>Address</p>
+                    <p className='text-white font-bold text-[18px] pt-2  max-lg:text-[14px]' >Plot Number 303 A, Barwala Road, Hansa Industrial Park , Derabassi , S.A.S. Nagar , Distt. Mohali (Punjab)-140507</p>
+                </div>
 
                 <div className="flex flex-col  text-3xl font-bold px-20 mt-10 max-lg:px-10  max-md:px-5">
                     <span className="text-white max-lg:text-center max-lg:text-[18px] ">Group Websites</span>
@@ -44,15 +44,15 @@ const Footer = () => {
 
                 </div>
                 <div className="px-20 text-white text-[18px] font-semibold pt-5 max-lg:px-10  max-md:px-5 max-lg:text-[14px] ">
-                  
+
                     Granulation | Pharma machines | Capsule section | Liquid section | Chemical section | Ointment section |
                     Syrup Machines
                 </div>
 
-             
-                <div className='  flex h-16 item-center px-20 lg:justify-center mt-10 max-lg:px-10  max-md:px-5  '>
+
+                <div className='  flex h-16 item-center px-20 lg:justify-center mt-3   max-lg:px-10  max-md:px-5  '>
                 <hr  className='' />
-                    <p className='text-white text-[18px]   max-md:text-[14px] flex  items-center '>
+                    <p className='text-white text-[18px]  max-md:text-[14px] flex  items-center max-lg:pb-5 '>
                         Universe Mach Works | ALL RIGHTS RESERVED | POWERED BY Marketing Mingles
                     </p>
 
